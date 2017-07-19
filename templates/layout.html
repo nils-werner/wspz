@@ -1,7 +1,12 @@
-<!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/gen/styles.css'|asseturl }}" />
-<title>{% block title %}Welcome{% endblock %} — WSpZ</title>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/static/gen/styles.css'|asseturl }}" />
+  <title>{% block title %}Welcome{% endblock %} — WSpZ</title>
+</head>
 <body class="{% block class %}{% endblock %}">
 
   <nav class="navbar navbar-default navbar-static-top">
@@ -33,3 +38,4 @@
   </div>
   <script type=text/javascript src="{{ '/static/gen/app.js'|asseturl }}" charset="utf-8"></script>
 </body>
+</html>
