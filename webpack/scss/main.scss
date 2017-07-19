@@ -7,14 +7,13 @@ $font-family-base: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 $font-family-serif: 'Roboto Slab', 'Georgia', 'Times New Roman', serif;
 $font-family-sans-serif: $font-family-base;
 
-$bootstrap-sass-asset-helper: true;
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome.scss";
 
 body {
-  padding-top: 75px;
 }
 
 h1, h2, h3 {
@@ -24,6 +23,35 @@ h1, h2, h3 {
 
 h1 {
   font-weight: 700;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.navbar a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar a:hover, .nav > li > a:focus, .nav > li > a:hover {
+  background: none;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.jumbotron, .minitron {
+  margin-bottom: 25px;
+  background-image: url(lake.jpg);
+  background-position: 50% 0%;
+  background-size: cover;
+}
+
+.jumbotron {
+  padding-top: 150px;
+  color: #ffffff;
+}
+
+.minitron {
+  height: 50px;
 }
 
 .images-block h3, .attachments-block h3, .address-block h3 {

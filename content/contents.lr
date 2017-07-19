@@ -1,5 +1,7 @@
 title: Welcome to WSpZ!
 ---
+_template: home.html
+---
 body:
 
 #### text ####

@@ -15,10 +15,7 @@ module.exports = {
   devtool: '#cheap-module-source-map',
   resolve: {
     modulesDirectories: ['node_modules'],
-    extensions: ['', '.js', '.css'],
-    alias: {
-      config: path.join(__dirname, 'config', process.env.TARGET ||  'default')
-    }
+    extensions: ['', '.js']
   },
   module: {
     loaders: [
@@ -42,9 +39,19 @@ module.exports = {
     ]
   },
   plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+    }),
     new ExtractTextPlugin('styles.css', {
       allChunks: true
-    }),
-    new webpack.optimize.UglifyJsPlugin()
+    })
   ]
 };
