@@ -1,10 +1,16 @@
 {% extends "page.html" %}
+{% block class %}home{% endblock %}
 {% block intro %}
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-3">Welcome!</h1>
-      <p>.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      <p>
+        <span>
+          This is the inofficial website of the Watersport center of FAU Erlangen-Nuremberg.
+          We offer a wide range of activities, from <a href="{{ '/courses/' | url }}">sailing courses
+          for beginners</a> to <a href="{{ '/community/yachting/' | url }}">sailing licenses and turns for enthusiasts</a>.</span>
+      </p>
+      <p><a class="btn btn-warning btn-lg" href="{{ '/courses/' | url }}" role="button">Learn how to sail &raquo;</a></p>
     </div>
   </div>
 {% endblock %}
