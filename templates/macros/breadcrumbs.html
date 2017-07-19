@@ -1,0 +1,17 @@
+{% macro render_breadcrumbs(this) %}
+<ol class="breadcrumb">
+  {% set root = site.get('/') %}
+  {% for child in root.children recursive %}
+    {% if this.is_child_of(child) %}
+      {% if this._path == child._path %}
+        <li class="active">{{ child.title }}</li>
+      {% else %}
+        <li>
+          <a href="{{ child|url }}">{{ child.title }}</a>
+        </li>
+      {% endif %}
+      {{ loop(child.children) }}
+    {% endif %}
+  {% endfor %}
+</ol>
+{% endmacro %}

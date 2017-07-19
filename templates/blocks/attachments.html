@@ -1,0 +1,17 @@
+<div class="attachments-block">
+  {% if this.show_title %}
+    <h3>Attachments</h3>
+  {% endif %}
+  <ul>
+    {% for attachment in record.attachments %}
+      {% if attachment._id in this.attachments %}
+        <li>
+          <a href="{{ attachment|url }}">
+            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+            {{ attachment._id }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

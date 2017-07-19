@@ -1,0 +1,20 @@
+title: Summer Sail
+---
+pub_date: 2017-07-18
+---
+author: Nicolas Söllner
+---
+body:
+
+#### text ####
+text: This is a **test**
+#### images ####
+width: 100
+----
+images: CIMG5436.JPG, IMG_20170715_224405.jpg
+----
+show_title: no
+#### attachments ####
+attachments: CIMG5436.JPG
+----
+show_title: no

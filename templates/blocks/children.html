@@ -1,0 +1,14 @@
+<div class="children-block">
+  {% if this.show_title %}
+    <h3>Child pages</h3>
+  {% endif %}
+  <ul>
+    {% for child in record.children %}
+      <li>
+        <a href="{{ child|url }}">
+          {{ child.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

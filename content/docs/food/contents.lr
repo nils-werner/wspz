@@ -1,0 +1,74 @@
+title: Food
+---
+body:
+
+#### text ####
+text:
+
+### Food amounts
+
+We usually calculate the following per person, per meal
+
+ - 150g BBQ meat
+ - 200g Pasta
+ - 2.5 breadrolls
+
+### Bakery
+
+We usually buy at bakery Ernst
+
+#### address ####
+address:
+#### Bäckerei Ernst
+
+Nürnberger Str. 1<br />
+91785 Pleinfeld<br />
+Tel. 09144 748
+
+Freitag: 05:30–18:00<br />
+Samstag: 05:30–12:00<br />
+Sonntag: Geschlossen
+----
+map_address: Nuernberger Str. 1, 91785 Pleinfeld
+
+#### text ####
+text:
+
+### BBQ meat
+
+BBQ meat we usually buy at Metzgerei Nüßlein
+
+#### address ####
+address:
+#### Metzgerei Nüßlein
+
+Marktplatz 3<br />
+91785 Pleinfeld<br />
+Tel. 09144 222
+
+Freitag: 08:00–18:00<br />
+Samstag: 07:00–12:30<br />
+Sonntag: Geschlossen<br />
+----
+map_address: Marktpl. 3, 91785 Pleinfeld
+
+#### text ####
+text:
+
+### Beer
+
+Beer we usually buy at
+
+#### address ####
+address:
+#### FRISTO Getränkemarkt
+
+Ellinger Str. 14<br />
+91785 Pleinfeld<br />
+Tel. 09144 924433
+
+Freitag: 08:00–20:00<br />
+Samstag: 08:00–20:00<br />
+Sonntag: Geschlossen
+----
+map_address: Ellinger Str. 14, 91785 Pleinfeld

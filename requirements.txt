@@ -1,0 +1,2 @@
+Lektor==3.0.1
+lektor-webpack-support==0.3

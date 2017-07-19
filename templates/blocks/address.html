@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="address-block col-md-6 col-md-offset-3">
+    {% if this.show_title %}
+      <h3>Attachments</h3>
+    {% endif %}
+    {% if this.show_map %}
+    <div class="row">
+      <div class="col-md-5">
+        {{ this.address }}
+      </div>
+      <div class="col-md-7">
+        {# <iframe width="100%" height="250" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q={{ this.map_address }}&key={{ bag('apis.google_maps.iframe_key') }}" allowfullscreen></iframe> #}
+        <a href="https://www.google.de/maps/place/{{ this.map_address }}">
+          <img src="https://maps.googleapis.com/maps/api/staticmap?center={{ this.map_address }}&zoom=14&size=300x200&maptype=roadmap&markers=color:red|{{ this.map_address }}&key={{ bag('apis.google_maps.static_key') }}" class="img-thumbnail"  />
+        </a>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>

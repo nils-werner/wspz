@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+$font-family-base: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$font-family-serif: 'Roboto Slab', 'Georgia', 'Times New Roman', serif;
+$font-family-sans-serif: $font-family-base;
+
+$bootstrap-sass-asset-helper: true;
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome.scss";
+
+body {
+  padding-top: 75px;
+}
+
+h1, h2, h3 {
+  font-family: $font-family-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.images-block h3, .attachments-block h3, .address-block h3 {
+  margin-top: 0px;
+}
+
+.images-block, .attachments-block, .address-block {
+  background-color: #EAEAEA;
+  padding: 20px;
+  margin-bottom: 3px;
+}
+
+.attachments-block ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.label.label-xs {
+  font-size: 40%;
+}
