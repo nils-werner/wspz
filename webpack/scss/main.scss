@@ -91,3 +91,28 @@ h1 {
 .label.label-xs {
   font-size: 40%;
 }
+
+blockquote {
+  font-family: $font-family-serif;
+  border: none;
+  margin: 0;
+  padding: 10px;
+  font-size: 140%;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.15);
+
+  /*Positioning*/
+  position: absolute;
+  left: 20px;
+  top: 8px;
+}
