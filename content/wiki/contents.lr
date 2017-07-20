@@ -9,13 +9,8 @@ text:
 
 This is (kind of) a wiki for documenting all important things at the WSpZ
 
-### Index
-
 #### children ####
+show_title: yes
 
 #### text ####
 text:
-
-### Editing
-
-You can edit these pages by going to our GitHub repository and changing the files there.

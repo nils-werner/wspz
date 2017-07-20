@@ -1,10 +1,12 @@
+{% extends "macros/widget.html" %}
+{% block content %}
+{% if this.show_title %}
+  <h3>Child pages</h3>
+{% endif %}
 <div class="children-block">
-  {% if this.show_title %}
-    <h3>Child pages</h3>
-  {% endif %}
-  <ul>
+  <ul class="nav nav-pills nav-stacked">
     {% for child in record.children %}
-      <li>
+      <li role="presentation">
         <a href="{{ child|url }}">
           {{ child.title }}
         </a>
@@ -12,3 +14,7 @@
     {% endfor %}
   </ul>
 </div>
+{% endblock %}
+
+{% block fullwidthclass %}col-md-offset-1 col-md-4{% endblock %}
+{% block class %}col-md-4{% endblock %}

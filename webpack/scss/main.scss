@@ -34,7 +34,7 @@ h1 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.navbar a:hover, .nav > li > a:focus, .nav > li > a:hover {
+.navbar a:hover {
   background: none;
   color: rgba(255, 255, 255, 1.0);
 }
@@ -76,11 +76,18 @@ h1 {
   margin-top: 0px;
 }
 
-.images-block, .attachments-block, .address-block {
-  background-color: #EAEAEA;
+.images-block, .attachments-block, .address-block, .pullquote-block, .children-block {
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.images-block, .attachments-block, .address-block {
+  background-color: #EAEAEA;
+}
+
+.children-block {
+  border: 1px solid #EAEAEA;
 }
 
 .attachments-block ul {
