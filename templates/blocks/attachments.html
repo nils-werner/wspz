@@ -1,3 +1,5 @@
+{% extends "macros/widget.html" %}
+{% block content %}
 <div class="attachments-block">
   {% if this.show_title %}
     <h3>Attachments</h3>
@@ -15,3 +17,4 @@
     {% endfor %}
   </ul>
 </div>
+{% endblock %}

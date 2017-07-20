@@ -16,9 +16,9 @@ We usually calculate the following per person, per meal
 ### Bakery
 
 We usually buy at bakery Ernst
-
 #### address ####
 address:
+
 #### Bäckerei Ernst
 
 Nürnberger Str. 1<br />
@@ -30,6 +30,13 @@ Samstag: 05:30–12:00<br />
 Sonntag: Geschlossen
 ----
 map_address: Nuernberger Str. 1, 91785 Pleinfeld
+----
+show_map: true
+----
+show_title: false
+----
+class: full-width
+
 
 #### text ####
 text:
@@ -37,9 +44,9 @@ text:
 ### BBQ meat
 
 BBQ meat we usually buy at Metzgerei Nüßlein
-
 #### address ####
 address:
+
 #### Metzgerei Nüßlein
 
 Marktplatz 3<br />
@@ -51,16 +58,21 @@ Samstag: 07:00–12:30<br />
 Sonntag: Geschlossen<br />
 ----
 map_address: Marktpl. 3, 91785 Pleinfeld
-
+----
+show_map: true
+----
+show_title: false
+----
+class:
 #### text ####
 text:
 
 ### Beer
 
 Beer we usually buy at
-
 #### address ####
 address:
+
 #### FRISTO Getränkemarkt
 
 Ellinger Str. 14<br />
@@ -72,3 +84,9 @@ Samstag: 08:00–20:00<br />
 Sonntag: Geschlossen
 ----
 map_address: Ellinger Str. 14, 91785 Pleinfeld
+----
+show_map: true
+----
+show_title: false
+----
+class:

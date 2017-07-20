@@ -3,6 +3,10 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
   <div class="container">
-    {{ render_blog_post(this) }}
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10">
+        {{ render_blog_post(this) }}
+      </div>
+    </div>
   </div>
 {% endblock %}

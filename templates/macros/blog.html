@@ -1,20 +1,15 @@
 {% macro render_blog_post(post, from_index=false) %}
   <div class="blog-post">
-    <div class="row">
-      <div class="col-md-offset-1 col-md-10">
+    {% if from_index %}
+      <h3><a href="{{ post|url }}">{{ post.title }}</a></h3>
+    {% else %}
+      <h2>{{ post.title }}</h2>
+    {% endif %}
 
-      {% if from_index %}
-        <h3><a href="{{ post|url }}">{{ post.title }}</a></h3>
-      {% else %}
-        <h2>{{ post.title }}</h2>
-      {% endif %}
-
-      <p class="meta">
-        written by {{ post.author }}
-        on {{ post.pub_date }}
-      </p>
-      </div>
-    </div>
-  {{ post.body }}
+    <p class="meta">
+      written by {{ post.author }}
+      on {{ post.pub_date }}
+    </p>
+    {{ post.body }}
   </div>
 {% endmacro %}

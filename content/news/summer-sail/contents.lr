@@ -14,6 +14,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa metus, viverra
 #### pullquote ####
 body: Geil wars!
 ----
+class: pull-left
+----
 author: Willi
 
 #### text ####
@@ -26,6 +28,8 @@ Nam quis nulla sed augue accumsan gravida in in dolor. Quisque ac ornare odio. I
 width: 100
 ----
 images: CIMG5436.JPG, IMG_20170715_224405.jpg
+----
+class: full-width
 ----
 show_title: no
 

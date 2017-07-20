@@ -1,3 +1,5 @@
+{% extends "macros/widget.html" %}
+{% block content %}
 <div class="images-block">
   {% if this.show_title %}
     <h3>Images</h3>
@@ -10,3 +12,4 @@
     {% endif %}
   {% endfor %}
 </div>
+{% endblock %}
