@@ -34,8 +34,6 @@ map_address: Nuernberger Str. 1, 91785 Pleinfeld
 show_map: true
 ----
 show_title: false
-----
-class: full-width
 
 
 #### text ####
@@ -62,8 +60,7 @@ map_address: Marktpl. 3, 91785 Pleinfeld
 show_map: true
 ----
 show_title: false
-----
-class:
+
 #### text ####
 text:
 
@@ -88,5 +85,3 @@ map_address: Ellinger Str. 14, 91785 Pleinfeld
 show_map: true
 ----
 show_title: false
-----
-class:
