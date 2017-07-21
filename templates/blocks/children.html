@@ -5,7 +5,7 @@
 {% endif %}
 <div class="children-block">
   <ul class="nav nav-pills nav-stacked">
-    {% for child in record.children %}
+    {% for child in record.children|sort(attribute='title') %}
       <li role="presentation">
         <a href="{{ child|url }}">
           {{ child.title }}
