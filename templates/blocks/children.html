@@ -1,8 +1,11 @@
 {% extends "macros/widget.html" %}
-{% block content %}
+{% block prefix %}
 {% if this.show_title %}
   <h3>Child pages</h3>
 {% endif %}
+{% endblock %}
+
+{% block content %}
 <div class="children-block">
   <ul class="nav nav-pills nav-stacked">
     {% for child in record.children|sort(attribute='title') %}
