@@ -1,21 +1,21 @@
 {% macro render_pagination(pagination) %}
   <ul class="pager">
     {% if pagination.has_prev %}
-      <li class="">
-        <a href="{{ pagination.prev|url }}"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</a>
+      <li class="previous">
+        <a href="{{ pagination.prev|url }}"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Older Posts</a>
       </li>
     {% else %}
-      <li class="disabled">
-        <a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</a>
+      <li class="previous disabled">
+        <a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Older Posts</a>
       </li>
     {% endif %}
     {% if pagination.has_next %}
-      <li class="">
-        <a href="{{ pagination.next|url }}">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+      <li class="next">
+        <a href="{{ pagination.next|url }}">Newer Posts <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
       </li>
     {% else %}
-      <li class="disabled">
-        <a href="#">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+      <li class="next disabled">
+        <a href="#">Newer Posts <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
       </li>
     {% endif %}
   </ul>
