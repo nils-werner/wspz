@@ -10,6 +10,15 @@
       written by {{ post.author }}
       on {{ post.pub_date }}
     </p>
-    {{ post.body }}
+    {% if from_index %}
+      {% for blk in post.body.blocks[:3] %}
+        {{ blk }}
+      {% endfor %}
+      <a class="btn btn-block light-block clearfix" href="{{ post|url }}">Continue reading</a>
+    {% else %}
+      {% for blk in post.body.blocks %}
+        {{ blk }}
+      {% endfor %}
+    {% endif %}
   </div>
 {% endmacro %}
