@@ -1,0 +1,18 @@
+title: Help
+---
+body:
+
+#### text ####
+text:
+
+This page uses
+
+ - [Lektor](https://www.getlektor.com/) as the CMS,
+ - [Markdown](https://daringfireball.net/projects/markdown/syntax) as the content language, and
+ - [flow fields](https://www.getlektor.com/docs/api/db/types/flow/) for additional structured content
+
+Please read the docs on [how to publish content with Lektor](https://www.getlektor.com/docs/content/).
+
+You can inspect [any of the existing pages](https://github.com/nils-werner/wspz/tree/master/content) to see how the content is created and structured for Lektor.
+
+If you want to change something but don't understand how you could do that, please [create a GitHub issue](https://github.com/nils-werner/wspz/issues) with the new content you would like to add to the page.
