@@ -11,7 +11,7 @@ class: danger
 #### text ####
 text:
 
-### Emergency Service
+## Emergency Service
 
 Dial **112** and be prepared to answer the following
 
@@ -29,15 +29,15 @@ class: full-width
 #### text ####
 text:
 
-### DLRG
+## DLRG
 
  - PMR mobile radio on channel 3, subchannel 1
  - Telephone +49 9144 927411
 
-### Watersport Center
+## Watersport Center
 
  - Telephone +49 9144 924403
 
-### Sven Rohtla
+## Sven Rohtla
 
  - Telephone +49 9131 85-28172

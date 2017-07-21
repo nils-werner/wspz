@@ -5,7 +5,7 @@ body:
 #### text ####
 text:
 
-### By car
+## By car
 
 #### address ####
 address:
@@ -20,7 +20,7 @@ map_address: Am Brombachsee 6, 91785 Pleinfeld
 #### text ####
 text:
 
-### By train
+## By train
 
 You can also take the Regional Express from Nuremberg to Pleinfeld. Pleinfeld is the last stop in the VGN system, so you can use your semester ticket, if you have one.
 

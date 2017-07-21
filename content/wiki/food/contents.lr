@@ -5,7 +5,7 @@ body:
 #### text ####
 text:
 
-### Food amounts
+## Food amounts
 
 We usually calculate the following per person, per meal
 
@@ -13,13 +13,13 @@ We usually calculate the following per person, per meal
  - 200g Pasta
  - 2.5 breadrolls
 
-### Bakery
+## Bakery
 
 We usually buy at bakery Ernst
 #### address ####
 address:
 
-#### Bäckerei Ernst
+### Bäckerei Ernst
 
 Nürnberger Str. 1<br />
 91785 Pleinfeld<br />
@@ -39,13 +39,13 @@ show_title: false
 #### text ####
 text:
 
-### BBQ meat
+## BBQ meat
 
 BBQ meat we usually buy at Metzgerei Nüßlein
 #### address ####
 address:
 
-#### Metzgerei Nüßlein
+### Metzgerei Nüßlein
 
 Marktplatz 3<br />
 91785 Pleinfeld<br />
@@ -64,13 +64,13 @@ show_title: false
 #### text ####
 text:
 
-### Beer
+## Beer
 
 Beer we usually buy at
 #### address ####
 address:
 
-#### FRISTO Getränkemarkt
+### FRISTO Getränkemarkt
 
 Ellinger Str. 14<br />
 91785 Pleinfeld<br />

@@ -2,7 +2,7 @@
 {% block content %}
 <div class="images-block">
   {% if this.show_title %}
-    <h3>Images</h3>
+    <h2>Images</h2>
   {% endif %}
   {% for image in record.attachments.images %}
     {% if image._id in this.images %}

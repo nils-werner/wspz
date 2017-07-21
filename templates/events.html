@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-offset-1 col-md-10">
-        <h2>{{ this.title }}</h2>
+        <h1>{{ this.title }}</h1>
       </div>
     </div>
 
@@ -12,14 +12,14 @@
       <div class="col-md-offset-1 col-md-10">
         {% for year, ylist in this.children|groupby('date.year') %}
           {% for month, list in ylist|groupby('date.month') %}
-            <h3>{{ list[0].date|datetimeformat('MMMM yyyy') }}</h3>
+            <h2>{{ list[0].date|datetimeformat('MMMM yyyy') }}</h2>
             {% for child in list %}
-              <h4>
+              <h3>
                 <a href="{{ child|url }}">
                   {{ child.title }}
                   <small class="pull-right">{{ child.date }}</small>
                 </a>
-              </h4>
+              </h3>
             {% endfor %}
           {% endfor %}
         {% endfor %}

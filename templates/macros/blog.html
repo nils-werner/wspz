@@ -2,9 +2,9 @@
   <div class="row">
     <div class="col-md-offset-1 col-md-10">
       {% if from_index %}
-        <h3><a href="{{ post|url }}">{{ post.title }}</a></h3>
+        <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
       {% else %}
-        <h2>{{ post.title }}</h2>
+        <h1>{{ post.title }}</h1>
       {% endif %}
 
       <p class="meta">
