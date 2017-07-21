@@ -6,10 +6,17 @@ author: Nicolas Söllner
 ---
 body:
 
+
+
 #### text ####
 text:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa metus, viverra vitae enim non, condimentum tristique dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu venenatis erat. Suspendisse eu posuere quam, vitae condimentum nibh. In pellentesque velit magna, vitae venenatis lectus lacinia sit amet. Vestibulum tristique nisi eros. Vivamus quis dolor ante.
+
+#### image ####
+image: IMG_20170715_224405.jpg
+----
+class: over-wide
 
 #### pullquote ####
 body: War super! Die Regatta war eine super idee, danke Nico!
