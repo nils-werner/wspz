@@ -5,19 +5,31 @@ body:
 #### text ####
 text:
 
-### Notruf
+### Emergency Service
 
 Dial **112** and be prepared to answer the following
 
- - Wo ist etwas geschehen?
- - Was ist geschehen?
- - Wie viele Personen sind betroffen?
- - Welche Art von Erkrankung/Verletzung/Schaden liegt vor?
- - Warten auf Rückfragen! (das Gespräch nicht unaufgefordert beenden) / Wer meldet?
+#### grey ####
+text:
+
+ - **Where** has it happened?
+ - **What** has happened?
+ - **How many** people are affected?
+ - **What kind** of injuries are there?
+ - **Wait** for further instructions! **Do not hang up until asked to!**
+
+#### text ####
+text:
 
 ### DLRG
 
  - PMR mobile radio on channel 3, subchannel 1
- - Telephone 09144 927411
+ - Telephone +49 9144 927411
+
+### Watersport Center
+
+ - Telephone +49 9144 924403
 
 ### Sven Rohtla
+
+ - Telephone +49 9131 85-28172
