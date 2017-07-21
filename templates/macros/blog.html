@@ -1,22 +1,34 @@
 {% macro render_blog_post(post, from_index=false) %}
-  {% if from_index %}
-    <h3><a href="{{ post|url }}">{{ post.title }}</a></h3>
-  {% else %}
-    <h2>{{ post.title }}</h2>
-  {% endif %}
+  <div class="row">
+    <div class="col-md-offset-1 col-md-10">
+      {% if from_index %}
+        <h3><a href="{{ post|url }}">{{ post.title }}</a></h3>
+      {% else %}
+        <h2>{{ post.title }}</h2>
+      {% endif %}
 
-  <p class="meta">
-    written by {{ post.author }}
-    on {{ post.pub_date }}
-  </p>
-  {% if from_index %}
-    {% for blk in post.body.blocks[:3] %}
-      {{ blk }}
-    {% endfor %}
-    <a class="btn btn-block light-block clearfix" href="{{ post|url }}">Continue reading</a>
-  {% else %}
-    {% for blk in post.body.blocks %}
-      {{ blk }}
-    {% endfor %}
-  {% endif %}
+      <p class="meta">
+        written by {{ post.author }}
+        on {{ post.pub_date }}
+      </p>
+
+      {% if from_index %}
+        {% for blk in post.body.blocks[:3] %}
+          {{ blk }}
+        {% endfor %}
+      {% else %}
+        {% for blk in post.body.blocks %}
+          {{ blk }}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-offset-1 col-md-10">
+      {% if from_index %}
+        <a class="btn btn-block light-block clearfix" href="{{ post|url }}">Continue reading</a>
+      {% endif %}
+    </div>
+  </div>
 {% endmacro %}

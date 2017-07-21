@@ -77,8 +77,11 @@ h1 {
   margin-top: 0px;
 }
 
-.light-block, .grey-block, .images-block, .attachments-block, .address-block, .pullquote-block, .children-block {
+.light-block, .grey-block, .images-block, .attachments-block, .address-block, .pullquote-block, .children-block, .image-block {
   padding: 20px;
+}
+
+.full-width, .over-wide {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -133,4 +136,12 @@ footer {
 
 .contact {
   text-align: center;
+}
+
+.col-md-14 {
+  @extend .col-md-12;
+
+  @media (min-width: $screen-md-min) {
+    width: percentage(14 / 12);
+  }
 }

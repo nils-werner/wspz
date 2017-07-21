@@ -1,21 +1,11 @@
 {% block widget %}
   {% if this.class|trim == 'over-wide' %}
-      </div> <!-- hack: we are closing the encapsulating columns and row -->
-    </div>
-    <div class="row">
-      <div class="{{ this.class }} {% block fullwidthclass %}col-md-12{% endblock %}">
+    <div class="{{ this.class }} {% block overwideclass %}col-md-pull-1 col-md-14{% endblock %}">
   {% elif this.class|trim == 'full-width' %}
-    <div class=" {{ self.fullwidthclass() }}">
+    <div class="{{ this.class }} {% block fullwidthclass %}col-md-12{% endblock %}">
   {% else %}
     <div class="{{ this.class }} {% block class %}col-md-6{% endblock %}">
   {% endif %}
   {% block content %}{% endblock %}
-  {% if this.class|trim == 'over-wide' %}
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-1 col-md-10">
-  {% else %}
-    </div>
-  {% endif %}
+  </div>
 {% endblock %}
