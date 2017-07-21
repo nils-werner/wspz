@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10">
+        <h2>{{ this.title }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10">
+        {% for year, ylist in this.children|groupby('date.year') %}
+          {% for month, list in ylist|groupby('date.month') %}
+            <h3>{{ list[0].date|datetimeformat('MMMM yyyy') }}</h3>
+            {% for child in list %}
+              <h4>
+                <a href="{{ child|url }}">
+                  {{ child.title }}
+                  <small>{{ child.date }}</small>
+                </a>
+              </h4>
+            {% endfor %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
