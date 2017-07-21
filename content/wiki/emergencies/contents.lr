@@ -2,6 +2,12 @@ title: Emergency Contacts
 ---
 body:
 
+#### alert ####
+text:
+Always contact someone **before entering the water!**
+----
+class: danger
+
 #### text ####
 text:
 
