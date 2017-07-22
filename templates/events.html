@@ -17,7 +17,7 @@
               <h3>
                 <a href="{{ child|url }}">
                   {{ child.title }}
-                  <small class="pull-right">{{ child.datetime_start }}</small>
+                  <small class="pull-right">{{ child.datetime_start|datetimeformat('dd.MM. HH:mm') }}</small>
                 </a>
               </h3>
             {% endfor %}

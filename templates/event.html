@@ -6,13 +6,13 @@
         <div class="col-md-offset-1 col-md-10">
           <h1>
             {{ this.title }}
-            <small class="pull-right">
-                {{ this.datetime_start }}
-                {% if this.datetime_end %}
-                  &mdash; {{ this.datetime_end }}
-                {% endif %}
-            </small>
           </h1>
+          <p>
+            {{ this.datetime_start|datetimeformat('dd.MM.YYYY HH:mm') }}
+            {% if this.datetime_end %}
+              &mdash; {{ this.datetime_end|datetimeformat('dd.MM. HH:mm') }}
+            {% endif %}
+          </p>
         </div>
     </div>
 
