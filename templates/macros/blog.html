@@ -11,9 +11,8 @@
         written by {{ post.author }}
         on {{ post.pub_date }}
       </p>
-
       {% if from_index %}
-        {% for blk in post.body.blocks[:3] %}
+        {% for blk in post.body.blocks[:(post.abbreviation or 3)] %}
           {{ blk }}
         {% endfor %}
       {% else %}
