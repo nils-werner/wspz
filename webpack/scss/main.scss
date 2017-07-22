@@ -145,3 +145,8 @@ footer {
     width: percentage(14 / 12);
   }
 }
+
+table {
+  @extend .table;
+  @extend .table-striped;
+}
