@@ -7,13 +7,11 @@
 
 {% block content %}
 <div class="children-block">
-  <ul class="nav nav-pills nav-stacked">
+  <ul class="list-group">
     {% for child in record.children|sort(attribute='title') %}
-      <li role="presentation">
-        <a href="{{ child|url }}">
-          {{ child.title }}
-        </a>
-      </li>
+      <a href="{{ child|url }}" class="list-group-item">
+        {{ child.title }}
+      </a>
     {% endfor %}
   </ul>
 </div>
