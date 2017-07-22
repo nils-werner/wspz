@@ -1,7 +1,7 @@
 {% block widget %}
   {% block prefix %}{% endblock %}
   {% if this.class|trim == 'over-wide' %}
-    <div class="{{ this.class }} {% block overwideclass %}col-md-pull-1 col-md-14{% endblock %}">
+    <div class="{{ this.class }} {% block overwideclass %}col-md-pull-2 col-md-16{% endblock %}">
   {% elif this.class|trim == 'full-width' %}
     <div class="{{ this.class }} {% block fullwidthclass %}col-md-12{% endblock %}">
   {% else %}

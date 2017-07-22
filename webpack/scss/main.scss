@@ -147,11 +147,11 @@ footer {
   text-align: center;
 }
 
-.col-md-14 {
+.col-md-16 {
   @extend .col-md-12;
 
   @media (min-width: $screen-md-min) {
-    width: percentage(14 / 12);
+    width: percentage(16 / 12);
   }
 }
 
