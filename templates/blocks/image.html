@@ -1,14 +1,11 @@
 {% extends "macros/widget.html" %}
+{% set image = record.attachments.images.get(this.image) %}
 {% block content %}
 <div class="image-block">
   <div class="thumbnail">
-    {% for image in record.attachments.images %}
-      {% if image._id == this.image %}
-        <a href="{{ image|url }}">
-          <img src="{{ image.thumbnail(this.width, this.height or this.width * 9 // 16, crop=True)|url }}" />
-        </a>
-      {% endif %}
-    {% endfor %}
+    <a href="{{ image|url }}">
+      <img src="{{ image.thumbnail(this.width, this.height or this.width * 9 // 16, crop=True)|url }}" />
+    </a>
     {% if this.body %}
       <div class="caption">
         {{ this.body }}
