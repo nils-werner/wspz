@@ -1,16 +1,14 @@
 {% extends "macros/widget.html" %}
-{% set id = get_random_id() %}
 {% block content %}
 <div class="images-block">
   {% if this.show_title %}
     <h2>Images</h2>
   {% endif %}
-  {% for image in record.attachments.images %}
-    {% if image._id in this.images %}
-      <a href="{{ image|url }}" data-lightbox="{{ id }}">
-        <img src="{{ image.thumbnail(this.width, this.width, crop=True)|url }}" class="img-thumbnail" />
-      </a>
-    {% endif %}
+  {% for id in this.images %}
+    {% set image = record.attachments.images.get(id) %}
+    <a href="{{ image|url }}" data-lightbox="{{ record._id }}">
+      <img src="{{ image.thumbnail(this.width, this.width, crop=True)|url }}" class="img-thumbnail" />
+    </a>
   {% endfor %}
 </div>
 {% endblock %}
