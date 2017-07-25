@@ -12,4 +12,5 @@ As a general rule, the following conditions are favorable for sailing:
  - 12+ degrees Celsius (Wetsuit!)
  - 1-15 kts wind speed
 
-<script type="text/javascript" src="https://www.windfinder.com/widget/forecast/js/brombachsee_mitteldamm?unit_wave=m&unit_rain=mm&unit_temperature=c&unit_wind=kts&columns=3&days=3&show_day=1"></script>
+#### forecast ####
+id: brombachsee_mitteldamm
