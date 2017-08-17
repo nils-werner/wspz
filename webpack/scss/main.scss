@@ -160,3 +160,9 @@ table {
   @extend .table;
   @extend .table-striped;
 }
+
+.sm-embed-responsive-4by3 {
+  @media (max-width: $screen-sm-min) {
+    padding-bottom: 75%;
+  }
+}
