@@ -7,20 +7,23 @@ id:
 v2heu2o3kpvbqqf53hcrqh1dv0
 5vgdhsllpb03hol7nheo96tiek
 7rv02ebqm4oqkbueadluh07mt0
+bo41foqnpmtd5afv7qbt6at93g
 ----
 colors:
 #28754E
 #711616
-#5A6986
+#2952A3
+#4E5D6C
 
 #### text ####
 text:
 
 ### Legende
 
+<span style="background-color: #65AD89; color: #ffffff; border-radius: 3px; padding: 5px;">Events</span> Besucher sind gern gesehen, Anmeldung meist über Doodles
 
-<span style="background-color: #28754E; color: #ffffff; border-radius: 3px; padding: 5px;">Events</span> können besucht werden, Anmeldung meist über Doodles
+<span style="background-color: #668CD9; color: #ffffff; border-radius: 3px; padding: 5px;">Kurse</span> Besucher sind gern gesehen, Anmeldung bei Segellehrer
 
-<span style="background-color: #5A6986; color: #ffffff; border-radius: 3px; padding: 5px;">Kurse</span> können besucht werden, Anmeldung bei Segellehrer
+<span style="background-color: #AD2D2D; color: #ffffff; border-radius: 3px; padding: 5px;">Sperrungen</span> Haus kann nicht besucht werden
 
-<span style="background-color: #711616; color: #ffffff; border-radius: 3px; padding: 5px;">Sperrungen</span> Haus kann nicht besucht werden
+<span style="background-color: #8997A5; color: #ffffff; border-radius: 3px; padding: 5px;">Externe Events</span> finden nicht am Brombachsee statt
