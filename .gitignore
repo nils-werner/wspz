@@ -1,7 +1,9 @@
 *.swp
 *.swo
 *.swn
+*.pxm
 .DS_Store
 webpack/node_modules
 assets/static/gen
 build/
+webpack/package-lock.json
