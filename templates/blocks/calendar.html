@@ -1,0 +1,13 @@
+{% extends "macros/widget.html" %}
+{% block content %}
+<div class="calendar-block">
+  {% if this.show_title %}
+    <h2>Calendar</h2>
+  {% endif %}
+  <div class="row">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src={{ this.id }}%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FBerlin" scrolling="no"></iframe>
+    </div>
+  </div>
+</div>
+{% endblock %}
