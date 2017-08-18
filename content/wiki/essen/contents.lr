@@ -1,21 +1,23 @@
-title: Food
+title: Essen
 ---
 body:
 
 #### text ####
 text:
 
-## Food amounts
+## Mengen
 
-We usually calculate the following per person, per meal
+Wir rechnen in der Regel mit
 
- - 150g BBQ meat
- - 200g Pasta
- - 2.5 breadrolls
+ - 150g Grillfleisch, oder
+ - 200g Pasta, oder
+ - 2.5 Brötchen
 
-## Bakery
+pro Person und Mahlzeit
 
-We usually buy at bakery Ernst
+## Bäckerei
+
+Wir kaufen in der Regel bei
 #### address ####
 address:
 
@@ -39,9 +41,10 @@ show_title: false
 #### text ####
 text:
 
-## BBQ meat
+## Grillfleisch
 
-BBQ meat we usually buy at Metzgerei Nüßlein
+Grillfleisch kaufen wir bei
+
 #### address ####
 address:
 
@@ -64,9 +67,10 @@ show_title: false
 #### text ####
 text:
 
-## Beer
+## Bier
 
-Beer we usually buy at
+Bier kaufen wir in der Regel bei
+
 #### address ####
 address:
 

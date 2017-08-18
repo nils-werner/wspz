@@ -1,0 +1,43 @@
+title: Notfälle
+---
+body:
+
+#### alert ####
+text:
+Kontaktiere stets jemanden **bevor du dich ins Wasser begibst, auch um zu helfen!**
+----
+class: danger
+
+#### text ####
+text:
+
+## Notruf
+
+Wähle **112** und sei bereit folgende Fragen zu beantworten
+
+#### grey ####
+text:
+
+ - **Wo** ist es passiert?
+ - **Was** ist passiert?
+ - **Wie viele** Personen sind betroffen?
+ - **Welche** Verletzung/Erkrankung liegt vor?
+ - **Warte** auf Rückfragen! **Lege nicht selbständig auf!**
+----
+class: full-width
+
+#### text ####
+text:
+
+## DLRG
+
+ - PMR Funkgerät auf Kanal 3, Unterkanal 1
+ - Telefon +49 9144 927411
+
+## Wassersport Zentrum
+
+ - Telefon +49 9144 924403
+
+## Sven Rohtla
+
+ - Telefon +49 9131 85-28172

@@ -2,11 +2,11 @@
 {% block content %}
 <div class="calendar-block">
   {% if this.show_title %}
-    <h2>Calendar</h2>
+    <h2>Kalender</h2>
   {% endif %}
   <div class="row">
     <div class="embed-responsive embed-responsive-16by9 sm-embed-responsive-4by3">
-      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&height=600&wkst=2&bgcolor=%23ffffff&src={{ this.id | join('%40group.calendar.google.com&src=') }}%40group.calendar.google.com&color={{ this.colors | map('urlencode') | join('&color=') }}&ctz=Europe%2FBerlin" scrolling="no"></iframe>
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&height=600&wkst=2&bgcolor=%23ffffff&src={{ this.id | join('%40group.calendar.google.com&src=') }}%40group.calendar.google.com&color={{ this.colors | map('urlencode') | join('&color=') }}&ctz=Europe%2FBerlin&hl=de" scrolling="no"></iframe>
     </div>
   </div>
 </div>
