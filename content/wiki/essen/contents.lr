@@ -39,14 +39,15 @@ Tel. 09144 748
 Freitag: 05:30–18:00<br />
 Samstag: 05:30–12:00<br />
 Sonntag: Geschlossen<br />
-Aber: Abholung bei Treppe im Hinterhof bei Vorbestellung+Bezahlung am Samstag<br />
 ----
 map_address: Nuernberger Str. 1, 91785 Pleinfeld
 ----
 show_map: true
 ----
 show_title: false
-
+#### text ####
+text:
+Auch Sonntag Abholung bei Treppe im Hinterhof bei Vorbestellung+Bezahlung am Samstag möglich<br />
 
 #### text ####
 text:
@@ -77,9 +78,9 @@ show_title: false
 #### text ####
 text:
 
-## Bier
+## Getränke
 
-Bier kaufen wir in der Regel bei
+Bier und sonstige Getränke kaufen wir in der Regel bei
 
 #### address ####
 address:
@@ -99,3 +100,7 @@ map_address: Ellinger Str. 14, 91785 Pleinfeld
 show_map: true
 ----
 show_title: false
+
+#### text ####
+text:
+Bitte ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen!
