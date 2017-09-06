@@ -1,5 +1,7 @@
 [project]
 name = WSpZ
+url = http://www.wspz.de/
 
 [packages]
 lektor-webpack-support = 0.3
+lektor-atom = 0.2

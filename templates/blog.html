@@ -1,7 +1,13 @@
 {% extends "layout.html" %}
 {% from "macros/blog.html" import render_blog_post %}
 {% from "macros/pagination.html" import render_pagination %}
+
 {% block title %}{{ this.title }}{% endblock %}
+
+{% block head %}
+<link rel="alternate" type="application/atom+xml" title="Blog" href="/atom.xml" />
+{% endblock %}
+
 {% block body %}
   <div class="container">
     <div class="row">
