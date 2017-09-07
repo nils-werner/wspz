@@ -103,32 +103,17 @@ show_title: false
 
 #### text ####
 text:
-Bitte ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen:
-
-Helles Augustiner Lagerbier Hell 0,5
-Radler Mönchshof-Natur-Radler 0,5
-Dunkles Hofmühl Dunkel 0,5
-Weizen Gutmann Hefeweizen Hell 0,5
-Spezi Frucade Cola-Mix 0,5
-Apfelschorle Vitaperle Apfelschorle 0,5
-Cola Coca Cola 0,5 (Glas)
-Orangenlimo Frucade Orangen-Limo 0,5
-Wasser Brunnthaler Spritzig 0,5
+Ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen! Ausschließlich Glasflaschen, keine PET!
 
 <table>
-<tr>
-<td>Helles</td>
-<td>Augustiner Lagerbier Hell</td>
-<td>0,5</td>
-</tr>
-<tr>
-<td>Radler</td>
-<td>Mönchshof Natur-Radler</td>
-<td>0,5</td>
-</tr>
-<tr>
-<td>Dunkles</td>
-<td>Hofmühl Dunkel</td>
-<td>0,5</td>
-</tr>
+<tr><th>Sorte</td><td>Bezeichnung</td><td>Kasten</td></tr>
+<tr><td>Helles</td><td>Augustiner Lagerbier Hell</td><td>20x0,5</td></tr>
+<tr><td>Radler</td><td>Mönchshof Natur-Radler</td><td>20x0,5</td></tr>
+<tr><td>Dunkles</td><td>Hofmühl Dunkel</td><td>20x0,5</td></tr>
+<tr><td>Weizen</td><td>Gutmann Hefeweizen Hell</td><td>20x0,5</td></tr>
+<tr><td>Spezi</td><td>Frucade Cola-Mix</td><td>20x0,5</td></tr>
+<tr><td>Apfelschorle</td><td>Vitaperle Apfelschorle</td><td>20x0,5</td></tr>
+<tr><td>Cola</td><td>Coca Cola</td><td>20x0,5</td></tr>
+<tr><td>Orangenlimo</td><td>Frucade Orangen-Limo</td><td>20x0,5</td></tr>
+<tr><td>Wasser</td><td>Brunnthaler Spritzig</td><td>20x0,5</td></tr>
 </table>
