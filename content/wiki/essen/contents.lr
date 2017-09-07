@@ -114,3 +114,21 @@ Apfelschorle Vitaperle Apfelschorle 0,5
 Cola Coca Cola 0,5 (Glas)
 Orangenlimo Frucade Orangen-Limo 0,5
 Wasser Brunnthaler Spritzig 0,5
+
+<table>
+<tr>
+<td>Helles</td>
+<td>Augustiner Lagerbier Hell</td>
+<td>0,5</td>
+</tr>
+<tr>
+<td>Radler</td>
+<td>Mönchshof Natur-Radler</td>
+<td>0,5</td>
+</tr>
+<tr>
+<td>Dunkles</td>
+<td>Hofmühl Dunkel</td>
+<td>0,5</td>
+</tr>
+</table>
