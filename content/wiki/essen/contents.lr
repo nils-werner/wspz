@@ -106,15 +106,15 @@ text:
 Ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen!<br>
 Ausschließlich Glasflaschen, keine PET!
 
-<table>
-<tr><th>Sorte</th><th>Bezeichnung</th><th>Kasten</th></tr>
-<tr><td>Helles</td><td>Augustiner Lagerbier Hell</td><td>20x0,5</td></tr>
-<tr><td>Radler</td><td>Mönchshof Natur-Radler</td><td>20x0,5</td></tr>
-<tr><td>Dunkles</td><td>Hofmühl Dunkel</td><td>20x0,5</td></tr>
-<tr><td>Weizen</td><td>Gutmann Hefeweizen Hell</td><td>20x0,5</td></tr>
-<tr><td>Spezi</td><td>Frucade Cola-Mix</td><td>20x0,5</td></tr>
-<tr><td>Apfelschorle</td><td>Vitaperle Apfelschorle</td><td>20x0,5</td></tr>
-<tr><td>Cola</td><td>Coca Cola</td><td>20x0,5</td></tr>
-<tr><td>Orangenlimo</td><td>Frucade Orangen-Limo</td><td>20x0,5</td></tr>
-<tr><td>Wasser</td><td>Brunnthaler Spritzig</td><td>20x0,5</td></tr>
-</table>
+
+| Sorte         | Bezeichnung                | Kasten |
+|---------------|----------------------------|--------|
+| Helles        | Augustiner Lagerbier Hell  | 20x0,5 |
+| Radler        | Mönchshof Natur-Radler     | 20x0,5 |
+| Dunkles       | Hofmühl Dunkel             | 20x0,5 |
+| Weizen        | Gutmann Hefeweizen Hell    | 20x0,5 |
+| Spezi         | Frucade Cola-Mix           | 20x0,5 |
+| Apfelschorle  | Vitaperle Apfelschorle     | 20x0,5 |
+| Cola          | Coca Cola                  | 20x0,5 |
+| Orangenlimo   | Frucade Orangen-Limo       | 20x0,5 |
+| Wasser        | Brunnthaler Spritzig       | 20x0,5 |
