@@ -5,28 +5,50 @@ body:
 #### text ####
 text:
 
+## Rezeptideen
+
+### Frühstück
+
+ - Brötchen
+ - Porridge
+ - Eier
+ - Pfannkuchen
+ - Kaiserschmarrn
+
+### Mittagessen
+
+ - Brötchen
+ - Aufgewärmtes vom Vorabend
+
+### Abendessen
+
+ - Grillen (Grill am Haus, Metzger im Ort)
+ - Lasagne
+ - Käsespätzle
+ - Chili Con Carne
+ - Spaghetti Bolognese
+ - Thai Curry
+
 ## Mengen
 
 Wir rechnen in der Regel mit
 
- - 1 Steak und 1 Bratwurst, oder
+ - 0.75 Steak und 0.75 Bratwürste, oder
  - 150g Pasta, oder
- - 2 Brötchen
+ - 1.6 Brötchen
 
 pro Person und Mahlzeit.
 
 D.h. für 12 Kursteilnehmer + 6 Bootsführer + 2 Segellehrer = 20 Personen
- - 30 Steaks und 30 Bratwürste für Abendessen und Mittagssemmel
- - 70 gemischte Brötchen für Frühstück und Mittagssemmel
+ - 30 Steaks und 30 Bratwürste für Abendessen und Mittag
+ - 64 gemischte Brötchen für Frühstück und Mittag
 
 D.h. für 12 Kursteilnehmer + 2 Segellehrer = 14 Personen
- - 20 Steaks und 20 Bratwürste für Abendessen und Mittagssemmel
- - 50 gemischte Brötchen für Frühstück und Mittagssemmel
+ - 20 Steaks und 20 Bratwürste für Abendessen und Mittag
+ - 45 gemischte Brötchen für Frühstück und Mittag
 
+## Adressen
 
-## Bäckerei
-
-Wir kaufen in der Regel bei
 #### address ####
 address:
 
@@ -47,14 +69,8 @@ show_map: true
 show_title: false
 #### text ####
 text:
-Auch Sonntag Abholung bei Treppe im Hinterhof bei Vorbestellung+Bezahlung am Samstag möglich<br />
 
-#### text ####
-text:
-
-## Grillfleisch
-
-Grillfleisch kaufen wir bei
+Auch Sonntag Abholung bei Treppe im Hinterhof bei Vorbestellung+Bezahlung am Samstag möglich
 
 #### address ####
 address:
@@ -74,13 +90,6 @@ map_address: Marktpl. 3, 91785 Pleinfeld
 show_map: true
 ----
 show_title: false
-
-#### text ####
-text:
-
-## Getränke
-
-Bier und sonstige Getränke kaufen wir in der Regel bei
 
 #### address ####
 address:
@@ -103,8 +112,7 @@ show_title: false
 
 #### text ####
 text:
-Ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen!<br>
-Ausschließlich Glasflaschen, keine PET!
+Ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen! Ausschließlich Glasflaschen, keine PET!
 
 
 | Sorte         | Bezeichnung                | Kasten |
