@@ -166,3 +166,9 @@ table {
     padding-bottom: 75%;
   }
 }
+
+@media print {
+  .minitron, .jumbotron, .wiki-edit, footer {
+    display: none;
+  }
+}
