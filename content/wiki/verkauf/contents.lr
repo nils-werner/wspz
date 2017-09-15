@@ -1,0 +1,18 @@
+title: Materialverkauf
+---
+body:
+
+#### text ####
+text:
+
+| Artikel                                              |  Preis |
+|------------------------------------------------------|-------:|
+| Neoprenanzug Open Ocean Long Arm Steamer (Uni Logo)  |     75 |
+| Neoprenanzug Pro Limit Long Arm Steamer (VDWS Logo)  |     89 |
+| ~~Neoprenschuhe Open Ocean~~*                        | ~~17~~ |
+| Polohemd (WSpZ)                                      |     20 |
+| Lycra Long Arm (VDWS)                                |     29 |
+| Segelhandschuhe                                      |     17 |
+| Brillenband                                          |      3 |
+
+ - \* Derzeit nicht verfügbar
