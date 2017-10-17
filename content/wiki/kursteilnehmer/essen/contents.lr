@@ -39,11 +39,13 @@ Wir rechnen in der Regel mit
 
 pro Person und Mahlzeit.
 
-D.h. für 12 Kursteilnehmer + 6 Bootsführer + 2 Segellehrer = 20 Personen
+### Beispiele
+
+Für 12 Kursteilnehmer + 6 Bootsführer + 2 Segellehrer = **20 Personen**
  - 30 Steaks und 30 Bratwürste für Abendessen und Mittag
  - 64 gemischte Brötchen für Frühstück und Mittag
 
-D.h. für 12 Kursteilnehmer + 2 Segellehrer = 14 Personen
+Für 12 Kursteilnehmer + 2 Segellehrer = **14 Personen**
  - 20 Steaks und 20 Bratwürste für Abendessen und Mittag
  - 45 gemischte Brötchen für Frühstück und Mittag
 
@@ -60,17 +62,16 @@ Tel. 09144 748
 
 Freitag: 05:30–18:00<br />
 Samstag: 05:30–12:00<br />
-Sonntag: Geschlossen<br />
+Sonntag: Geschlossen
+
+Auch Sonntag Abholung (Treppe im Hinterhof) bei Vorbestellung+Bezahlung am Samstag möglich
+
 ----
 map_address: Nuernberger Str. 1, 91785 Pleinfeld
 ----
 show_map: true
 ----
 show_title: false
-#### text ####
-text:
-
-Auch Sonntag Abholung bei Treppe im Hinterhof bei Vorbestellung+Bezahlung am Samstag möglich
 
 #### address ####
 address:
