@@ -9,6 +9,12 @@ Unsere Kurse können über den [Hochschulsport der Uni](https://www.anmeldung.sp
 
 #### image ####
 image: kurse.png
+----
+class: full-width
+----
+width: 400
+----
+crop: false
 
 #### text ####
 text:
