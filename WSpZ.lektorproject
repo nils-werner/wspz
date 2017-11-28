@@ -2,6 +2,7 @@
 name = WSpZ
 url = http://www.wspz.de/
 url_style = absolute
+included_assets = _redirects
 
 [packages]
 lektor-webpack-support = 0.3
