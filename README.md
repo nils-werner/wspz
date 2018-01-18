@@ -1,7 +1,7 @@
 Änderungen Vorschlagen
 ======================
 
-Einfach ein [Ticket anlegen und dort den Text eingeben].
+Einfach ein [Ticket anlegen und dort den Text eingeben](https://github.com/nils-werner/wspz/issues).
 
 
 Lokale Installation
