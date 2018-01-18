@@ -80,7 +80,7 @@ h1 {
   margin-top: 0px;
 }
 
-.light-block, .grey-block, .images-block, .attachments-block, .address-block, .pullquote-block, .image-block {
+.light-block, .grey-block, .images-block, .attachments-block, .address-block, .pullquote-block, .image-block, .youtube-block {
   padding: 20px;
 }
 
@@ -89,8 +89,13 @@ h1 {
   margin-bottom: 20px;
 }
 
-.grey-block, .images-block, .attachments-block, .address-block {
+.grey-block, .images-block, .attachments-block, .address-block, .youtube-block {
   background-color: #EAEAEA;
+}
+
+.youtube-block .embed-responsive {
+  margin: 15px;
+  margin-top: 0px;
 }
 
 .light-block {
