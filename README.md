@@ -1,5 +1,11 @@
-Installation
-============
+Änderungen Vorschlagen
+======================
+
+Einfach ein [Ticket anlegen und dort den Text eingeben].
+
+
+Lokale Installation
+===================
 
 Vorraussetzungen:
 
