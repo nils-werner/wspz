@@ -5,29 +5,26 @@ body:
 #### text ####
 text:
 
+Jeder Kurs verpflegt sich selbständig. Die Kursteilnehmer müssen Essen kaufen und zubereiten, sowie für etwaige (vorangemeldete) Gäste kochen. Nachfolgend findest du ein paar bewährte Rezeptideen, sowie Mengenangaben und Adressen zu Supermärkten in der Nähe.
+
 ## Rezeptideen
 
-### Frühstück
-
- - Brötchen
- - Porridge
- - Eier
- - Pfannkuchen
- - Kaiserschmarrn
-
-### Mittagessen
-
- - Brötchen
- - Aufgewärmtes vom Vorabend
-
-### Abendessen
-
- - Grillen (Grill am Haus, Metzger im Ort)
- - Lasagne
- - Käsespätzle
- - Chili Con Carne
- - Spaghetti Bolognese
- - Thai Curry
+  - Frühstück
+   - Brötchen
+   - Porridge
+   - Eier
+   - Pfannkuchen
+   - Kaiserschmarrn
+  - Mittagessen
+   - Brötchen
+   - Aufgewärmtes vom Vorabend
+  - Abendessen
+   - Grillen (Grill am Haus, Metzger im Ort)
+   - Lasagne
+   - Käsespätzle
+   - Chili Con Carne
+   - Spaghetti Bolognese
+   - Thai Curry
 
 ## Mengen
 
@@ -37,7 +34,7 @@ Wir rechnen in der Regel mit
  - 150g Pasta, oder
  - 1.6 Brötchen
 
-pro Person und Mahlzeit.
+pro Person und Mahlzeit (plus Beilagen wie Salat)
 
 ### Beispiele
 
@@ -61,10 +58,10 @@ Nürnberger Str. 1<br />
 Tel. 09144 748
 
 Freitag: 05:30–18:00<br />
-Samstag: 05:30–12:00<br />
-Sonntag: Geschlossen
+Samstag: 05:30–**12:00**<br />
+**Sonntag: Geschlossen**
 
-Auch Sonntag Abholung (Treppe im Hinterhof) bei Vorbestellung+Bezahlung am Samstag möglich
+Bei **Vorbestellung+Bezahlung am Samstag** ist auch eine Abholung am Sonntag (Treppe im Hinterhof) möglich.
 
 ----
 map_address: Nuernberger Str. 1, 91785 Pleinfeld
@@ -83,8 +80,9 @@ Marktplatz 3<br />
 Tel. 09144 222
 
 Freitag: 08:00–18:00<br />
-Samstag: 07:00–12:30<br />
-Sonntag: Geschlossen<br />
+Samstag: 07:00–**12:30**<br />
+**Sonntag: Geschlossen**
+
 ----
 map_address: Marktpl. 3, 91785 Pleinfeld
 ----
@@ -103,7 +101,8 @@ Tel. 09144 924433
 
 Freitag: 08:00–20:00<br />
 Samstag: 08:00–20:00<br />
-Sonntag: Geschlossen
+**Sonntag: Geschlossen**
+
 ----
 map_address: Ellinger Str. 14, 91785 Pleinfeld
 ----
@@ -113,7 +112,9 @@ show_title: false
 
 #### text ####
 text:
-Ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen! Ausschließlich Glasflaschen, keine PET!
+## Bier
+
+Bitte ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen! Ausschließlich Glasflaschen, keine PET!
 
 
 | Sorte         | Bezeichnung                | Kasten |
