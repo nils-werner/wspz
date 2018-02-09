@@ -9,10 +9,13 @@ text:
 
 Diese Seite benutzt
 
+ - [GitHub](https://github.com/nils-werner/wspz) als Speicher (Konto benötigt),
  - [Lektor](https://www.getlektor.com/) als CMS,
- - [Markdown](https://daringfireball.net/projects/markdown/syntax) als Formatierungs-Sprache, and
+ - [Markdown](https://daringfireball.net/projects/markdown/syntax) als Formatierungs-Sprache, und
  - [flow fields](https://www.getlektor.com/docs/api/db/types/flow/) für Artikel-Widgets
 
 Bitte lies die offizielle [Lektor Doku zum erstellen von Inhalten](https://www.getlektor.com/docs/content/).
 
 Du kannst auch [jede der existierenden Seiten betrachten](https://github.com/nils-werner/wspz/tree/master/content) um zu sehen wie Inhalt erstellt wird.
+
+Oder einfach ein [Ticket Anlegen](https://github.com/nils-werner/wspz/issues) um Änderungen vor zu schlagen.
