@@ -3,8 +3,8 @@
 {% block content %}
 <div class="image-block">
   <div class="thumbnail">
-    <a href="{{ image|url }}" data-lightbox="{{ record._id }}" data-title="{{ this.body }}">
-      <img src="{{ image.thumbnail(this.width, this.height or this.width * 9 // 16, crop=this.crop)|url }}" />
+    <a href="{{ image|url }}" data-lightbox="{{ record._id }}" data-title="{{ this.body|striptags }}">
+      <img src="{{ image.thumbnail(this.width, this.height or this.width * 9 // 16, crop=this.crop)|url }}" alt="{{ this.body|striptags }}" />
     </a>
     {% if this.body %}
       <div class="caption">

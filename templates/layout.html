@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,8 +39,9 @@
   {% block intro %}
     <div class="minitron"></div>
   {% endblock %}
+
   {% block body %}{% endblock %}
-  </div>
+
   <footer>
     <div class="container">
       <div class="row">
@@ -67,6 +68,6 @@
       </div>
     </div>
   </footer>
-  <script type=text/javascript src="{{ '/static/gen/app.js'|asseturl }}" charset="utf-8"></script>
+  <script src="{{ '/static/gen/app.js'|asseturl }}" charset="utf-8"></script>
 </body>
 </html>
