@@ -10,9 +10,9 @@
       {{ this.address }}
     </div>
     <div class="col-md-7">
-      {# <iframe width="100%" height="250" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q={{ this.map_address }}&key={{ bag('apis.google_maps.iframe_key') }}" allowfullscreen></iframe> #}
-      <a href="https://www.google.de/maps/place/{{ this.map_address }}">
-        <img src="https://maps.googleapis.com/maps/api/staticmap?center={{ this.map_address }}&zoom=14&size={{ '600' if not this.class or this.class|trim == 'full-width' else '300' }}x200&maptype=roadmap&markers=color:red|{{ this.map_address }}&key={{ bag('apis.google_maps.static_key') }}" class="img-thumbnail"  />
+      {# <iframe width="100%" height="250" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q={{ this.map_address|urlencode }}&key={{ bag('apis.google_maps.iframe_key') }}" allowfullscreen></iframe> #}
+      <a href="https://www.google.de/maps/place/{{ this.map_address|urlencode }}">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?center={{ this.map_address|urlencode }}&zoom=14&size={{ '600' if not this.class or this.class|trim == 'full-width' else '300' }}x200&maptype=roadmap&markers=color:red|{{ this.map_address }}&key={{ bag('apis.google_maps.static_key') }}" class="img-thumbnail"  />
       </a>
     </div>
   </div>
