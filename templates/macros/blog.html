@@ -8,8 +8,7 @@
       {% endif %}
 
       <p class="meta">
-        von {{ post.author }}
-        am {{ post.pub_date|datetimeformat('dd.MM.YYYY') }}
+        <strong>{{ post.pub_date|datetimeformat('dd.MM.YYYY') }}</strong> von <strong>{{ post.author }}</strong>
       </p>
       {% if from_index %}
         {% for blk in post.body.blocks[:(post.abbreviation or 3)] %}
@@ -25,7 +24,7 @@
 
   <div class="row">
     <div class="col-md-offset-2 col-md-8">
-      {% if from_index %}
+      {% if from_index and post.body.blocks|length > (post.abbreviation or 3) %}
         <a class="btn btn-block light-block clearfix" href="{{ post|url }}">Weiter lesen</a>
       {% endif %}
     </div>
