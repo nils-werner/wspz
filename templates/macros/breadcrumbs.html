@@ -10,7 +10,7 @@
           <a href="{{ child|url }}">{{ child.title }}</a>
         </li>
       {% endif %}
-      {{ loop(child.children) }}
+      {{ loop(child.children.include_undiscoverable(True)) }}
     {% endif %}
   {% endfor %}
 </ol>
