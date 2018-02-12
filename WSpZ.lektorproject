@@ -1,6 +1,6 @@
 [project]
 name = WSpZ
-url = http://www.wspz.de/
+url = https://www.wspz.de/
 url_style = absolute
 included_assets = _redirects
 
