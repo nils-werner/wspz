@@ -9,14 +9,6 @@ text:
 
 Unsere Kurse können über den [Hochschulsport der Uni](https://www.anmeldung.sport.uni-erlangen.de/hsp/sportarten/aktueller_zeitraum_0/) gebucht werden.
 
-#### image ####
-image: kurse.png
-----
-class: full-width
-----
-width: 400
-----
-crop: false
 
 #### text ####
 text:
@@ -30,6 +22,16 @@ Der **Grundkurs (GK)** umfasst in der Regel zwei Wochenenden und bringt dir die 
 Der Aufbaukurs nennt sich **Prüfungsvorbereitungskurs (PV)** und wird extra so gestaltet, dass die Manöver, die zur Prüfung abgefragt werden, ausgiebig geübt werden können.
 
 Nachdem du **GK und PV-Kurs** belegt hast, kannst du dich zur Prüfung für den [VDWS Grundschein Jolle](https://www.vdws.de/grundscheine-cards/basiclicencesailing/) anmelden. Der VDWS Jollen Grundschein wird von allen VDWS Segelschulen europaweit akzeptiert, das bedeutet du kannst dann auch Boote am Gardasee oder Mallorca mieten (lokale Beschränkungen beachten).
+
+#### images ####
+images: 20117070_1496280003763687_9126753222845286359_o.jpg, 20121406_1496279550430399_1221969016930576560_o.jpg, 20045439_1496279587097062_2791873538995414265_o.jpg, 20157960_1496279567097064_3519911883020367213_o.jpg, 20229425_1496279613763726_2189882837826913521_o.jpg, 20045465_1496279653763722_3864741721234733776_o.jpg, 20229834_1496279700430384_3354003667104120381_o.jpg, 20157189_1496279713763716_2390040010422866251_o.jpg, 20045696_1496279753763712_9166491950462361593_o.jpg, 20017803_1496279813763706_3023192213518775930_o.jpg, 20157491_1496279847097036_3636009776488507898_o.jpg, 19577306_1496279860430368_1019169257304622568_o.jpg, 20116966_1496279883763699_2393143109371340215_o.jpg, 20232693_1496279947097026_2385672513112746361_o.jpg, 20229546_1496280250430329_2657678341936531743_o.jpg
+----
+width: 96
+----
+show_title: false
+
+#### text ####
+text:
 
 ## Katamaran
 
@@ -45,6 +47,9 @@ Zudem kannst du, je nach Wunsch, weitere Kurse belegen, die fortgeschrittene The
 
 ...oder du kannst Bootsführer werden.
 
+#### text ####
+text:
+
 ## Freies Segeln
 
 Freies Segeln ist nur möglich wenn du den VDWS Grundschein zu dem Boot hast, das du fahren möchtest. Dein Mitsegler muss den Schein nicht haben.
@@ -55,3 +60,12 @@ class: danger
 text:
 
 Übungssegeln ohne Schein ist nur im Rahmen eines PV-Kurses möglich.
+
+#### image ####
+image: kurse.png
+----
+class: full-width
+----
+width: 400
+----
+crop: false
