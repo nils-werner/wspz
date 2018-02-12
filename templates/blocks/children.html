@@ -7,13 +7,13 @@
 
 {% block content %}
 <div class="children-block">
-  <ul class="list-group">
+  <div class="list-group">
     {% for child in record.children|sort(attribute='title') %}
       <a href="{{ child|url }}" class="list-group-item">
         {{ child.title }}
       </a>
     {% endfor %}
-  </ul>
+  </div>
 </div>
 {% endblock %}
 
