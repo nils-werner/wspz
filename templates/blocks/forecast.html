@@ -5,7 +5,8 @@
   {% endif %}
   <div class="row">
     <div class="embed-responsive">
-      <iframe src="https://de.windfinder.com/widget/forecast/{{ this.id }}?show_pressure=1&amp;unit_temperature=c&amp;show_day=1&amp;show_rain=1&amp;unit_rain=mm&amp;days=3&amp;unit_wind=kts&amp;show_clouds=1&amp;show_wind=1&amp;show_temperature=1&amp;show_waves=1&amp;columns=3&amp;unit_wave=m&amp;domain=localhost"></iframe>
+      {# <iframe src="https://de.windfinder.com/widget/forecast/{{ this.id }}?show_pressure=1&amp;unit_temperature=c&amp;show_day=1&amp;show_rain=1&amp;unit_rain=mm&amp;days=3&amp;unit_wind=kts&amp;show_clouds=1&amp;show_wind=1&amp;show_temperature=1&amp;show_waves=1&amp;columns=3&amp;unit_wave=m&amp;domain=www.wspz.de"></iframe> #}
+      <script type="text/javascript" src="https://www.windfinder.com/widget/forecast/js/{{ this.id }}?show_pressure=1&amp;unit_temperature=c&amp;show_day=1&amp;show_rain=1&amp;unit_rain=mm&amp;days=3&amp;unit_wind=kts&amp;show_clouds=1&amp;show_wind=1&amp;show_temperature=1&amp;show_waves=1&amp;columns=3&amp;unit_wave=m" charset="utf-8"></script>
     </div>
   </div>
   {{ this.body }}
