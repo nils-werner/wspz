@@ -5,3 +5,5 @@ http://unijolle.de/*          https://www.wspz.de/:splat 301!
 https://unijolle.de/*         https://www.wspz.de/:splat 301!
 http://www.unijolle.de/*      https://www.wspz.de/:splat 301!
 https://www.unijolle.de/*     https://www.wspz.de/:splat 301!
+http://wspz.netlify.com/*     https://www.wspz.de/:splat 301!
+https://wspz.netlify.com/*    https://www.wspz.de/:splat 301!
