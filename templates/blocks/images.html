@@ -6,7 +6,7 @@
   {% endif %}
   {% for id in this.images %}
     {% set image = record.attachments.images.get(id) %}
-    <a href="{{ image|url }}" data-lightbox="{{ record._id }}">
+    <a href="{{ image|url }}" data-lightbox="{{ this|id }}">
       <img src="{{ image.thumbnail(this.width, this.width, crop=True)|url }}" class="img-thumbnail" alt="Image thumbnail"/>
     </a>
   {% endfor %}
