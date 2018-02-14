@@ -4,9 +4,9 @@
   {% if this.show_title %}
     <h2>Bilder</h2>
   {% endif %}
-  {% for id in this.images %}
-    {% set image = record.attachments.images.get(id) %}
-    <a href="{{ image|url }}" data-lightbox="{{ this|id }}">
+  {% for img in this.images.blocks %}
+    {% set image = record.attachments.images.get(img.image) %}
+    <a href="{{ image|url }}" data-lightbox="{{ this|id }}" data-title="{{ img.body|striptags }}">
       <img src="{{ image.thumbnail(this.width, this.width, crop=True)|url }}" class="img-thumbnail" alt="Image thumbnail"/>
     </a>
   {% endfor %}
