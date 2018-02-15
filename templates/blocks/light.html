@@ -1,6 +1,10 @@
 {% extends "macros/widget.html" %}
 {% block content %}
 <div class="light-block">
-  {{ this.text }}
+  <div class="row">
+    {% for blk in this.body.blocks %}
+      {{ blk }}
+    {% endfor %}
+  </div>
 </div>
 {% endblock %}
