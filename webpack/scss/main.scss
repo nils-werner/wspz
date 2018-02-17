@@ -126,28 +126,35 @@ h1 {
 }
 
 blockquote {
-  font-family: $font-family-serif;
-  border: none;
-  margin: 0;
-  padding: 10px;
-  font-size: 140%;
-  font-weight: 400;
-  letter-spacing: 1px;
+  font-size: $font-size-base;
+  background-color: #fafafa;
 }
 
-blockquote::before{
-  content: "\201C"; /*Unicode for Left Double Quote*/
+.pullquote-block {
+  blockquote {
+    font-family: $font-family-serif;
+    border: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 140%;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
 
-  /*Font*/
-  font-family: Georgia, serif;
-  font-size: 80px;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.15);
+  blockquote::before{
+    content: "\201C"; /*Unicode for Left Double Quote*/
 
-  /*Positioning*/
-  position: absolute;
-  left: 20px;
-  top: 8px;
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.15);
+
+    /*Positioning*/
+    position: absolute;
+    left: 20px;
+    top: 8px;
+  }
 }
 
 footer {
