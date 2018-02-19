@@ -46,23 +46,33 @@
     <div class="container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8 contact">
-          <div class="col-sm-4">
+          <div class="col-sm-4 text-center">
             <i class="fa fa-phone-square" aria-hidden="true"></i>
             <a href="tel:+49-9144-924403">
               +49 9144 924403
             </a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 text-center">
             <i class="fa fa-envelope" aria-hidden="true"></i>
             <a href="https://lists.fau.de/cgi-bin/listinfo/sport-segeln">
               Mailing Liste
             </a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 text-center">
             <i class="fa fa-facebook-official" aria-hidden="true"></i>
             <a href="https://www.facebook.com/groups/209470149101598/">
               Facebook
             </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="hidden-xs col-md-offset-2 col-md-8 build">
+          <div class="col-sm-6 text-center">
+            Build ID {{ "(unknown)" | env_override("COMMIT_REF") | truncate(length=7, killwords=True, end='', leeway=None) }}
+          </div>
+          <div class="col-sm-6 text-center">
+            Build Date {{ now | strftime("%Y/%m/%d %H:%M") }}
           </div>
         </div>
       </div>
