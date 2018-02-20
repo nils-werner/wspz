@@ -2,19 +2,6 @@ title: Wettervorhersage
 ---
 body:
 
-#### text ####
-text:
-
-Die Wind- und Wettervorhersage kann auf [Windfinder](https://www.windfinder.com/forecast/brombachsee_mitteldamm) und [Windyty](https://www.windy.com/49.104/10.978?48.280,10.975,7,m:e0Zagts) gefunden werden.
-
-Generell sind die folgenden Bedingungen gut fürs Segeln:
-
- - 12+ Grad Celsius (dann aber im Neopren-Anzug!)
- - 1-15 Knoten Windgeschwindigkeit
-
-Bei zu viel oder zu wenig Wind kann nicht gesegelt werden.
-
-
 #### windyty ####
 class: over-wide
 ----
@@ -23,3 +10,22 @@ zoom: 4
 lat: 48.280
 ----
 lon: 10.975
+
+#### text ####
+text:
+
+Die Wind- und Wettervorhersage kann auf [Windfinder](https://www.windfinder.com/forecast/brombachsee_mitteldamm) und [Windyty](https://www.windy.com/49.104/10.978?48.280,10.975,7,m:e0Zagts) gefunden werden.
+
+Generell sind die folgenden Bedingungen gut fürs Segeln:
+
+ - 12+ Grad Celsius (dann aber im Neopren-Anzug!)
+ - 1-15 Knoten ([1-4 bft](https://de.wikipedia.org/wiki/Beaufortskala)) Windgeschwindigkeit
+
+Bei zu viel oder zu wenig Wind kann nicht gesegelt werden.
+## Vor Ort
+
+Im Eingangsbereich des Hauses steht eine Wettervorhersage-Anzeigetafel mit Niederschlags- und Blitzradar.
+
+## Benachrichtigungen
+
+Der Twitter Account [@brombachseewind](https://twitter.com/brombachseewind) twittert automatisch, sobald gute Windbedigungen vorhergesagt sind.
