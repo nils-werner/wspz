@@ -115,9 +115,14 @@ h1 {
   list-style-type: none;
 }
 
-.forecast-block .row .embed-responsive {
+.windfinder-block .row .embed-responsive {
   width: 715px;
   height: 300px;
+  margin: auto;
+}
+
+.windyty-block .row .embed-responsive {
+  height: 600px;
   margin: auto;
 }
 

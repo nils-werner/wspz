@@ -1,0 +1,15 @@
+{% extends "macros/widget.html" %}
+{% block content %}
+<div class="windyty-block">
+  {% if this.show_title %}
+    <h2>Vorhersage</h2>
+  {% endif %}
+  <div class="row">
+    <div class="embed-responsive">
+      <iframe src="https://embed.windy.com/embed2.html?lat={{ this.lat }}&amp;lon={{ this.lon }}&amp;zoom={{ this.zoom }}&amp;level=surface&amp;overlay=wind&amp;menu=&amp;message=&amp;marker=&amp;calendar=&amp;pressure=true&amp;type=map&amp;location=coordinates&amp;detail=true&amp;detailLat={{ this.detail_lat|default(this.lat) }}&amp;detailLon={{ this.detail_lon|default(this.lon) }}&amp;metricWind=bft&amp;metricTemp=%C2%B0C"></iframe>
+    </div>
+  </div>
+  {{ this.body }}
+</div>
+</div>
+{% endblock %}

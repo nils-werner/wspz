@@ -5,7 +5,7 @@ body:
 #### text ####
 text:
 
-Die Wind- und Wettervorhersage kann auf [Windfinder](https://www.windfinder.com/forecast/brombachsee_mitteldamm) gefunden werden.
+Die Wind- und Wettervorhersage kann auf [Windfinder](https://www.windfinder.com/forecast/brombachsee_mitteldamm) und [Windyty](https://www.windy.com/48.280/10.975?48.280,10.975,7) gefunden werden.
 
 Generell sind die folgenden Bedingungen gut fürs Segeln:
 
@@ -14,5 +14,12 @@ Generell sind die folgenden Bedingungen gut fürs Segeln:
 
 Bei zu viel oder zu wenig Wind kann nicht gesegelt werden.
 
-#### forecast ####
-id: brombachsee_mitteldamm
+
+#### windyty ####
+class: over-wide
+----
+zoom: 4
+----
+lat: 48.280
+----
+lon: 10.975
