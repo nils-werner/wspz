@@ -72,7 +72,7 @@
             Build ID {{ "(unknown)" | env_override("COMMIT_REF") | truncate(length=7, killwords=True, end='', leeway=None) }}
           </div>
           <div class="col-sm-6 text-center">
-            Build Date {{ now | strftime("%Y/%m/%d %H:%M") }}
+            Build Date {{ now() | strftime("%Y/%m/%d %H:%M") }}
           </div>
         </div>
       </div>
