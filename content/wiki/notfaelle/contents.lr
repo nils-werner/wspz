@@ -4,7 +4,7 @@ body:
 
 #### alert ####
 text:
-Kontaktiere stets jemanden **bevor du dich ins Wasser begibst, auch um zu helfen!**
+<i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Kontaktiere stets jemanden **bevor du dich ins Wasser begibst, auch um zu helfen!**
 ----
 class: danger
 
