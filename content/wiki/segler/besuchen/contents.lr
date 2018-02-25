@@ -5,7 +5,7 @@ body:
 #### alert ####
 text:
 
-**Besucher sind jederzeit willkommen!**
+<i class="fa fa-fw fa-exclamation-circle" aria-hidden="true"></i> **Besucher sind jederzeit willkommen!**
 
 Die einzigen Tage, an denen du das WSpZ nicht besuchen kannst, sind im [Kalender](/kalender/) vermerkt und rot markiert.
 

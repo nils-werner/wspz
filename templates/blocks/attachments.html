@@ -9,15 +9,15 @@
       {% if attachment._id in this.attachments %}
         <li>
           {% if (attachment|url).endswith('pdf') %}
-            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+            <i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i>
           {% elif (attachment|url).endswith('zip') %}
-            <i class="fa fa-file-archive-o" aria-hidden="true"></i>
+            <i class="fa fa-fw fa-file-archive-o" aria-hidden="true"></i>
           {% elif attachment._attachment_type == 'image' %}
-            <i class="fa fa-file-picture-o" aria-hidden="true"></i>
+            <i class="fa fa-fw fa-file-picture-o" aria-hidden="true"></i>
           {% elif attachment._attachment_type == 'text' %}
-            <i class="fa fa-file-text-o" aria-hidden="true"></i>
+            <i class="fa fa-fw fa-file-text-o" aria-hidden="true"></i>
           {% else %}
-            <i class="fa fa-file-o" aria-hidden="true"></i>
+            <i class="fa fa-fw fa-file-o" aria-hidden="true"></i>
           {% endif %}
           <a href="{{ attachment|url }}">
             {{ attachment._id }}
