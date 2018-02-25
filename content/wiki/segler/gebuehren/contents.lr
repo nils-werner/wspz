@@ -11,7 +11,17 @@ text:
  - Gruppe 2: Mitarbeiter der FAU und Studierende anderer Hochschulen
  - Gruppe 3: Fördervereinsmitglieder
 
-## Übungssegeln und Freies Segeln (pro Boot)
+## Freies Segeln (pro Boot)
+
+#### alert ####
+class: danger
+----
+text:
+
+<i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Übungssegeln ohne Schein ist nur im Rahmen eines [PV-Kurses](/kurse/) möglich.
+
+#### text ####
+text:
 
 #### Im Preis enthalten
 
