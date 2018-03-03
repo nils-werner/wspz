@@ -1,0 +1,12 @@
+_model: wiki
+---
+title: Änderung Vorschlagen
+---
+readonly: yes
+---
+body:
+
+#### alert ####
+text:
+
+Vielen Dank für deinen Vorschlag!

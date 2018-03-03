@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% from "macros/breadcrumbs.html" import render_breadcrumbs %}
+{% block title %}Änderung vorschlagen{% endblock %}
+{% block body %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        {{ render_breadcrumbs(this) }}
+        <h1>
+          Änderung vorschlagen
+        </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <form action="/wiki/vorschlag/erfolg" name="contact" method="POST" class="form-horizontal" netlify>
+          <div class="form-group">
+            <label for="inputName" class="col-sm-2  control-label">Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputName" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail" class="col-sm-2  control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputSubject" class="col-sm-2  control-label">Betreff</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputSubject" placeholder="Betreff">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputText" class="col-sm-2  control-label">Nachricht</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" rows="4" id="inputText" ></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default">Absenden</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block script %}
+  <script src="{{ '/static/gen/suggestion.js'|asseturl }}"></script>
+{% endblock %}
