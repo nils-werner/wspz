@@ -23,7 +23,7 @@ Installation
 Zur lokalen Installation der Website benötigst du folgende Software:
 
  - Node
- - npm
+ - npm oder yarn
  - Python
  - pip
 
