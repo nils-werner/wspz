@@ -13,6 +13,7 @@ class FiltersPlugin(Plugin):
 
     def on_setup_env(self, **extra):
         self.env.jinja_env.globals['now'] = datetime.datetime.utcnow
+        self.env.jinja_env.globals['is_production'] = lambda: os.getenv('CONTEXT') is not None
         self.env.jinja_env.filters['strftime'] = datetime.datetime.strftime
         self.env.jinja_env.filters['id'] = id
         self.env.jinja_env.filters['env_override'] = env_override
