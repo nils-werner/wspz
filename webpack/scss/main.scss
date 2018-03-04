@@ -205,3 +205,29 @@ table {
   text-decoration: underline;
   font-weight: 700;
 }
+
+@mixin fontawesome-icon {
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main a[href^='tel:'] {
+  &:after {
+    @include fontawesome-icon();
+    content: ' \f098';
+  }
+}
+
+main a[href*='//'] {
+  &:after {
+    @include fontawesome-icon();
+    content: ' \f14c';
+    font-weight: normal;
+  }
+}
+
+main a.map:after, main .edit-buttons a:after {
+  content: none;
+}
