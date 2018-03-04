@@ -13,7 +13,7 @@ text:
 
 ## Notruf
 
-Wähle [**112**](tel:112) und sei bereit folgende Fragen zu beantworten
+Wähle [**112**](tel:112;phone-context=+49) und sei bereit folgende Fragen zu beantworten
 
 #### grey ####
 body:
