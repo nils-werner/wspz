@@ -5,5 +5,5 @@ url_style = absolute
 included_assets = _redirects
 
 [packages]
-lektor-webpack-support = 0.3
+lektor-webpack-support = 0.4
 lektor-atom = 0.2
