@@ -17,22 +17,12 @@
           </button>
           <ul class="dropdown-menu">
             <li>
-              <a href="https://github.com/nils-werner/wspz/issues/new?title=Vorschlag%20fuer%20{{ this.path.split('@')[0] }}/contents.lr" class="btn-sm">
-                <i class="fa fa-fw fa-github" aria-hidden="true"></i> Änderung vorschlagen (GitHub)
+              <a href="{{ '/wiki/vorschlag/'|url }}?subject=Vorschlag%20fuer%20{{ this.path }}/" class="btn-sm">
+                <i class="fa fa-fw fa-send-o" aria-hidden="true"></i> Änderung vorschlagen
               </a>
             </li>
             <li>
-              <a href="/wiki/vorschlag/?subject=Vorschlag%20fuer%20{{ this.path.split('@')[0] }}/contents.lr" class="btn-sm">
-                <i class="fa fa-fw fa-i-cursor" aria-hidden="true"></i> Änderung vorschlagen (Formular)
-              </a>
-            </li>
-            <li>
-              <a href="mailto:{{ bag('email.admins').values() | join(",") }}?subject=%5Bwspz.de%5D%20Vorschlag%20fuer%20{{ this.path.split('@')[0] }}/contents.lr" class="btn-sm">
-                <i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Änderung vorschlagen (Email)
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/nils-werner/wspz/commits/master/content{{ this.path.split('@')[0] }}/contents.lr" class="btn-sm">
+              <a href="https://github.com/nils-werner/wspz/commits/master/content{{ this.path }}/contents.lr" class="btn-sm">
                 <i class="fa fa-fw fa-history" aria-hidden="true"></i> Historie ansehen
               </a>
             </li>
