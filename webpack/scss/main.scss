@@ -97,6 +97,12 @@ h1 {
   background-color: #EAEAEA;
 }
 
+@media print {
+  .grey-block, .images-block, .attachments-block, .address-block, .youtube-block {
+    border: 1px solid #EAEAEA;
+  }
+}
+
 .images-block img {
   margin: 2px 0px 2px 0px;
 }
@@ -220,14 +226,28 @@ main a[href^='tel:'] {
   }
 }
 
-main a[href*='//'] {
-  &:after {
-    @include fontawesome-icon();
-    content: ' \f14c';
-    font-weight: normal;
+main a.map:after, main .edit-buttons a:after {
+  content: none;
+}
+
+@media screen {
+  main a[href*='//'] {
+    &:after {
+      @include fontawesome-icon();
+      content: ' \f14c';
+      font-weight: normal;
+    }
   }
 }
 
-main a.map:after, main .edit-buttons a:after {
-  content: none;
+@media print {
+  main a[data-lightbox] {
+    &:after {
+      content: '';
+    }
+  }
+
+  .breadcrumb, .edit-buttons {
+    display: none;
+  }
 }
