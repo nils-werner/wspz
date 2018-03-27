@@ -238,6 +238,12 @@ main a.map:after, main .edit-buttons a:after {
       font-weight: normal;
     }
   }
+
+  main a.map {
+    &:after {
+      content: '';
+    }
+  }
 }
 
 @media print {
