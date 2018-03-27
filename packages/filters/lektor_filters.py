@@ -1,5 +1,7 @@
 import os
+import pytz
 import datetime
+import functools
 from lektor.pluginsystem import Plugin
 
 
@@ -12,7 +14,8 @@ class FiltersPlugin(Plugin):
     description = u'A few template filters.'
 
     def on_setup_env(self, **extra):
-        self.env.jinja_env.globals['now'] = datetime.datetime.utcnow
+        tz = pytz.timezone('Europe/Berlin')
+        self.env.jinja_env.globals['now'] = functools.partial(datetime.datetime.now, tz)
         self.env.jinja_env.globals['is_production'] = lambda: os.getenv('CONTEXT') is not None
         self.env.jinja_env.filters['strftime'] = datetime.datetime.strftime
         self.env.jinja_env.filters['id'] = id
