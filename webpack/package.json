@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
+    "anchor-js": "^4.1.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.3",
     "bootstrap": "^3.3.6",
