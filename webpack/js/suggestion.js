@@ -1,5 +1,5 @@
-require("bootstrap");
-require("lightbox2");
+require("./main.js")
+
 var $ = require("jquery");
 
 $.urlParam = function(name){
