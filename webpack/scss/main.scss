@@ -251,3 +251,8 @@ main a.map:after, main .edit-buttons a:after {
     display: none;
   }
 }
+
+.anchorjs-link, .anchorjs-link:link, .anchorjs-link:visited, .anchorjs-link:hover {
+  color: #aaaaaa;
+  text-decoration: none;
+}
