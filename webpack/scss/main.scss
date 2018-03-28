@@ -239,7 +239,7 @@ main a.map:after, main .edit-buttons a:after {
     }
   }
 
-  main a.map {
+  main a.map, main .edit-buttons a {
     &:after {
       content: '';
     }
