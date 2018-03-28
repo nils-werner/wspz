@@ -16,5 +16,8 @@
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.2",
     "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap-toc": "https://github.com/afeld/bootstrap-toc.git"
   }
 }

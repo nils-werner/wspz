@@ -1,5 +1,6 @@
 require("bootstrap");
 require("lightbox2");
+require("bootstrap-toc/bootstrap-toc.js");
 
 var anchorJS = require('anchor-js');
 var anchors = new anchorJS({'placement': 'left'});
