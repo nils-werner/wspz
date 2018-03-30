@@ -7,37 +7,273 @@ text:
 
 ## Unijollen
 
-| Name                        |   Nummer |    Liegeplatz |
-|-----------------------------|---------:|---------------|
-| Fair Lady                   |      U56 |     Pleinfeld |
-| Durmin 06                   |      U57 |     Pleinfeld |
-| Ingrid                      |      U58 |     Pleinfeld |
-| Maoi                        |      U59 |     Pleinfeld |
-| Hakahana                    |      U65 |     Pleinfeld |
-| Aloa                        |      U66 |     Pleinfeld |
-| Flotte Lotte                |      U67 |     Pleinfeld |
-| Ruth                        |      U68 |     Pleinfeld |
-| Wilhelmine                  |      U79 |     Pleinfeld |
-| Margit                      |      U80 |     Pleinfeld |
-| Inge                        |      U81 |     Pleinfeld |
-| Katharina I.                |      U82 |     Pleinfeld |
+<dl class="dl-horizontal">
+  <dt>Entwicklung</dt>
+  <dd>Alfred Meyer in Zusammenarbeit mit der Uni Kiel</dd>
+
+  <dt>Bootswerft</dt>
+  <dd>"meyba-boats" (Alfred Meyer) in Kiel-Wendtorf. Noch keine offiziell zugelassenene Bootsklasse</dd>
+
+  <dt>Technische Daten</dt>
+  <dd><a href="https://de.wikipedia.org/wiki/Uni-Jolle">Länge 5,08 m; Breite 1,75 m; Gewicht 190 kg; Großsegel 9,10 qm; Focksegel 4,10 qm; Spinnaker 13,00 qm</a></dd>
+</dl>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Taufe und Pate</th>
+      <th>Erwerb</th>
+      <th>Liegeplatz</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:right">U55</td>
+      <td>Renate</td>
+      <td>Taufe und Name: Prof. Dr. Renate Wittern-Sterzel, Prorektorin der FAU (2005)</td>
+      <td>FAU 2004 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U56</td>
+      <td>Fair Lady</td>
+      <td>Taufe: Frieder von Falkenhausen; Segellehrer des WSpZ der FAUZ; zur Ehrung von Irmgard Sickenberg, Frau von Reiner Sickenberg (Lehrkraft am ISS der FAU, Fachleiter Segeln, Initiator des WSpZ) <br /> Name: Wahl der Segellehrer des HSSp der FAU</td>
+      <td>FV WSpZ 2004 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U57</td>
+      <td>Durmin 06</td>
+      <td>Taufe: Michaela Gritz, Frau des Betriebsinhabers der Firma Abfallentsorgung Nürnberg, Johannes Gritz <br /> Name: Wahl der Betriebsleitung</td>
+      <td>HSSp ISS 2004 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U58</td>
+      <td>Ingrid</td>
+      <td>Taufe und Name: Ingrid Grüske, Frau des Rektors der FAU Prof. Dr. Karl-Dieter Grüske</td>
+      <td>FAU 2003 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U59</td>
+      <td>Maoi</td>
+      <td>Taufe: Studenten des HSSp der FAU <br /> Name: Atoll in der Südsee</td>
+      <td>ISS 2001 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U65</td>
+      <td>Hakahana</td>
+      <td>Taufe: Alfred Meyer, Bootsbauer der Unijolle <br /> Name: In der Sprache der Eingeborenen von Namibia: "Auf gehts!"</td>
+      <td>FAU 1999</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U66</td>
+      <td>Aloa</td>
+      <td>Taufe: Studenten des HSSp der FAU <br /> Name: In der Sprache der Hawaiianer: "Hallo"</td>
+      <td>FAU 2000</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U67</td>
+      <td>Flotte Lotte</td>
+      <td>Taufe: Lieselotte Rütten, Frau von Prof. Dr. Alfred Rütten (Leiter des ISS der FAU) <br /> Name: Wunschname der Famile Rütten</td>
+      <td>FAU 2000</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U68</td>
+      <td>Ruth</td>
+      <td>Taufe und Name: Ruth Marker-Diekmann, Architektin am Bauamt der FAU; Projektleitung des WSpZ mit der "Crew": Silke Beck, Ursula Freyer, Ulrike Berbig, Anton Kerl, Dieter Mausner und Uwe Schüttauf</td>
+      <td>FAU 2000</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U79</td>
+      <td>Wilhelmine</td>
+      <td>Taufe: Thomas Schöck, Kanzler der FAU <br /> Name: Markgräfin Wilhelmine von Bayreuth [1709-1758], älteste Schwester Friedrichs des Großen und Gattin des Markgrafen Friedrich von Bayreuth, nach dem die FAU benannt wurde</td>
+      <td>FAU 2003</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U80</td>
+      <td>Margit</td>
+      <td>Taufe und Name: Margit Weiß, Frau des Landtagsabgeordneten des Wahlkreises Roth und Bayerischen Justizministers (bis 2003) Dr. Manfred Weiß</td>
+      <td>FAU 2003</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U81</td>
+      <td>Inge</td>
+      <td>Taufe und Name: Inge Feil,  Frau von Otto Feil (Vorsitzenden des Fördervereins WSpZ Pleinfeld der FAU)</td>
+      <td>FV WSpZ 2003</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">U82</td>
+      <td>Katharina I.</td>
+      <td>Taufe und Name: Katharina Fürstin von Wrede, Frau des ehemaligen Grundbesitzers des WSpZ-Geländes Karl Fürst von Wrede</td>
+      <td>FV WSpZ 2003 Spende Durmin 2006</td>
+      <td>Pleinfeld</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Hobie 16 Cat
 
-| Name                        |   Nummer |    Liegeplatz |
-|-----------------------------|---------:|---------------|
-| Jamskanuba II               |     HC-1 |     Pleinfeld |
-| Rein-Air                    |     HC-2 |     Pleinfeld |
-| Ursula                      |     HC-3 |     Pleinfeld |
-| Black Pearl                 |     HC-4 |     Pleinfeld |
-| iQ-Move                     |     HC-5 |     Pleinfeld |
+<dl class="dl-horizontal">
+  <dt>Entwicklung</dt>
+  <dd>Hobart ("Hobie") Alter aus Capristano Beach in Kalifornien (USA) - seit 1970 eine der weltweit größten offiziellen Bootsklassen</dd>
+
+  <dt>Bootswerft</dt>
+  <dd>"Hobie Cat Europe" - Frankreich</dd>
+
+  <dt>Technische Daten</dt>
+  <dd><a href="https://de.wikipedia.org/wiki/Hobie_16">Länge 5,5 m; Breite 2,43 m; Gewicht 145 kg; Großsegel 13,77 qm; Focksegel 5,12 qm; Gennaker 15 qm</a></dd>
+</dl>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Taufe und Pate</th>
+      <th>Erwerb</th>
+      <th>Liegeplatz</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:right">HC-1</td>
+      <td>Jamskanuba II</td>
+      <td>Taufe: Anja Schnabel - Segellehrerin am WSpZ und Leiterin des ersten Katamaran Kurses am WSpZ <br /> Name: Wunsch der Taufpatin, eigenes Boot hieß bereits Jamskanuba</td>
+      <td>FAU 2002 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">HC-2</td>
+      <td>Rein-Air</td>
+      <td>Taufe: Frieder von Falkenhausen im Namen der Segellehrer des WSpZ der FAU zur Ehrung von Reiner Sickenberg <br /> Name: Anlehnung an den Vornamen "Reiner"</td>
+      <td>FAU 2003 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">HC-3</td>
+      <td>Ursula</td>
+      <td>Taufe und Name: Ursula Ertl, Sekretärin des Rektor der FAU, Prof. Dr. Karl-Dieter Grüske (2006)</td>
+      <td>FAU 2003 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">HC-4</td>
+      <td>Black Pearl</td>
+      <td>Taufe: Barbara Brütting, Manuel Sand und Stephan Schuh - Teilnehmer des ersten Katamaran Kurses am WSpZ <br /> Name: In Anlehnung an "Fluch der Karibik" für das schnellste Schiff auf dem Meer</td>
+      <td>FAU 2007 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">HC-5</td>
+      <td>iQ-Move</td>
+      <td>Taufe: Prof. Dr. Dr. M. Lochmann, Mitglied der Leitung des ISS und Vorstandsmitglied das Fördervereins <br /> Name: Eine vom ISS gegründete GmbH trägt den gleichen Namen - damit soll die Vernetzung zwischen WSpZ und ISS verbildlicht werden</td>
+      <td>FAU 2007 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 470
 
-| Name                        |   Nummer |    Liegeplatz |
-|-----------------------------|---------:|---------------|
-| Luder                       |    470-1 |     Pleinfeld |
-| Lilo                        |    470-2 |     Pleinfeld |
-| Argenore                    |    470-3 |     Pleinfeld |
-| Blauer Klaus                |    470-4 |     Pleinfeld |
-| Blauer Klabauter            |    470-5 |     Pleinfeld |
+<dl class="dl-horizontal">
+  <dt>Bootswerft</dt>
+  <dd>"Ziegelmayer" in Hamburg. Seit 1976 olympische Herrenklasse, seit 1988 olympische Damenklasse.</dd>
+
+  <dt>Technische Daten</dt>
+  <dd><a href="https://de.wikipedia.org/wiki/470er_Jolle">Länge 4,70 m; Breite 1,68 m; Gewicht 120 kg; Großsegel 9,12 qm; Focksegel 3,58 qm; Spinnaker 13,00 qm</a></dd>
+</dl>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Taufe und Pate</th>
+      <th>Erwerb</th>
+      <th>Liegeplatz</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:right">470-1</td>
+      <td>Luder</td>
+      <td>Taufe: Michael Scharf, Student des 1. Wahlfachs Segeln 2000 <br /> Name: Wunschname der Wahlfachteilnehmer</td>
+      <td>ISS 1998 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">470-2</td>
+      <td>Lilo</td>
+      <td>Taufe und Name: Lilo Hecht, Frau des Leiters des Sportzentrums der FAU, Ernst Hecht (bis 2004)</td>
+      <td>FAU 2002 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">470-3</td>
+      <td>Argenore</td>
+      <td>Taufe: Prof. Dr. Karl-Dieter Grüske, Rektor der FAU Erlangen-Nürnberg <br /> Name: Oper der Markgräfin Wilhelmine von Bayreuth [1740], in der sie ihre albtraumartige Kindheit am Berliner Hof des Soldatenkönigs Friedrich Wilhelm I. künstlerisch verarbeitet hat, (Melodie Telefonwarteschleife der FAU)</td>
+      <td>FAU 2002 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">470-4</td>
+      <td>Blauer Klaus</td>
+      <td>Taufe und Name: Würtembergischer Yachtclub Friedrichshafen</td>
+      <td>FAU 2002 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+    <tr>
+      <td style="text-align:right">470-5</td>
+      <td>Blauer Klabauter</td>
+      <td>Taufe und Name: Würtembergischer Yachtclub Friedrichshafen</td>
+      <td>FAU 2002 (gebraucht)</td>
+      <td>Pleinfeld</td>
+    </tr>
+  </tbody>
+</table>
+
+## Sitzboot
+
+<dl class="dl-horizontal">
+  <dt>Entwicklung</dt>
+  <dd>Stephan Schuh - Fachleitung Segeln</dd>
+
+  <dt>Bootswerft</dt>
+  <dd>Wassersportzentrum Pleinfeld, Bootskörper war ein Geschenk der Wassersportgemeinschaft Rangau (Enderndorf)</dd>
+
+  <dt>Technische Daten</dt>
+  <dd>Länge 7,2 m; Breite 1,95 m; Gewicht 250 kg; Großsegel nicht vorhanden; Focksegel 3,12 qm</dd>
+</dl>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Taufe und Pate</th>
+      <th>Erwerb</th>
+      <th>Liegeplatz</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:right">SB-1</td>
+      <td>VASA</td>
+      <td>Taufe: Alexander Schmidler, Stephan Zink und Stephan Schuh - Erbauer der Einbauten <br /> Name: Anlehnung an das im Mittelalter vor Schweden gesunkene Boot. Einer der Gründe für die Havarie war der zu hoch gelagerte Schwerpunkt des Schiffes. Die Einbauten beim Boot der FAU könnten einen ähnlichen Einfluss haben.</td>
+      <td>WSpZ 2010</td>
+      <td>Pleinfeld</td>
+    </tr>
+  </tbody>
+</table>
