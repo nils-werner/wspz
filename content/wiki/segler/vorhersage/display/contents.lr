@@ -1,0 +1,74 @@
+title: Wettervorhersage-Display
+---
+body:
+
+#### text ####
+text:
+
+## Hardware
+
+ - Raspberry Pi (Modell 3 empfohlen)
+ - WiFi Stick (nicht benötigt ab Modell 3)
+ - LCD-Bildschirm
+ - HDMI-Kabel
+ - Netzteil
+
+## Installation
+
+ 1. [ArchLinux ARM](https://archlinuxarm.org/) installieren
+ 1. LAN Kabel verbinden
+ 1. Mit Raspberry Pi verbinden
+
+    ```
+    ssh alarm@alarmpi
+    ```
+
+    Passwort ändern
+
+    ```
+    passwd
+    ```
+
+ 1. Mit `su` System upgraden, `alarm` zu `sudoers` hinzufügen
+
+    ```
+    pacman -Syu
+    pacman -S base-devel git vim sudo netctl
+    gpasswd -a alarm sudoers
+    exit
+    ```
+
+    Danach `sudo` ausprobieren
+
+    ```
+    sudo -v
+    ```
+
+ 1. [overlayroot](https://github.com/nils-werner/raspi-overlayroot) installieren
+
+    ```
+    git clone https://github.com/nils-werner/raspi-overlayroot.git
+    cd raspi-overlayroot
+    makepkg -si
+    ```
+
+ 1. [In `rwrootfs`](https://github.com/nils-werner/raspi-overlayroot#editing-the-root-filesystem)
+   1. [WiFi einrichten](https://raspberrypi.stackexchange.com/questions/7987/wifi-configuration-on-arch-linux-arm), LAN Kabel trennen, WiFi testen
+   1. [dashboard](https://github.com/nils-werner/raspi-dashboard) installieren
+
+      ```
+      git clone https://github.com/nils-werner/raspi-dashboard.git
+      cd raspi-dashboard
+      makepkg -si
+      systemctl enable cronie
+      timedatectl set-ntp true
+      ```
+
+   1. [URL in `/home/display/.xinitrc` anpassen](https://github.com/nils-werner/raspi-dashboard#customization)
+   1. Bildschirmdrehung einrichten in `/boot/config.txt`
+
+      ```
+      display_rotate=3
+      ```
+
+ 1. Neustarten, bewundern
