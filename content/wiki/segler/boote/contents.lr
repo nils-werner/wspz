@@ -18,6 +18,12 @@ text:
   <dd><a href="https://de.wikipedia.org/wiki/Uni-Jolle">Länge 5,08 m; Breite 1,75 m; Gewicht 190 kg; Großsegel 9,10 qm; Focksegel 4,10 qm; Spinnaker 13,00 qm</a></dd>
 </dl>
 
+#### transparent ####
+body:
+
+##### text #####
+text:
+
 <table>
   <thead>
     <tr>
@@ -123,6 +129,9 @@ text:
   </tbody>
 </table>
 
+#### text ####
+text:
+
 ## Hobie 16 Cat
 
 <dl class="dl-horizontal">
@@ -135,6 +144,12 @@ text:
   <dt>Technische Daten</dt>
   <dd><a href="https://de.wikipedia.org/wiki/Hobie_16">Länge 5,5 m; Breite 2,43 m; Gewicht 145 kg; Großsegel 13,77 qm; Focksegel 5,12 qm; Gennaker 15 qm</a></dd>
 </dl>
+
+#### transparent ####
+body:
+
+##### text #####
+text:
 
 <table>
   <thead>
@@ -185,6 +200,9 @@ text:
   </tbody>
 </table>
 
+#### text ####
+text:
+
 ## 470
 
 <dl class="dl-horizontal">
@@ -194,6 +212,12 @@ text:
   <dt>Technische Daten</dt>
   <dd><a href="https://de.wikipedia.org/wiki/470er_Jolle">Länge 4,70 m; Breite 1,68 m; Gewicht 120 kg; Großsegel 9,12 qm; Focksegel 3,58 qm; Spinnaker 13,00 qm</a></dd>
 </dl>
+
+#### transparent ####
+body:
+
+##### text #####
+text:
 
 <table>
   <thead>
@@ -244,6 +268,9 @@ text:
   </tbody>
 </table>
 
+#### text ####
+text:
+
 ## Sitzboot
 
 <dl class="dl-horizontal">
@@ -256,6 +283,12 @@ text:
   <dt>Technische Daten</dt>
   <dd>Länge 7,2 m; Breite 1,95 m; Gewicht 250 kg; Großsegel nicht vorhanden; Focksegel 3,12 qm</dd>
 </dl>
+
+#### transparent ####
+body:
+
+##### text #####
+text:
 
 <table>
   <thead>
