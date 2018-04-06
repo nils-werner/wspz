@@ -262,3 +262,16 @@ main a.map:after, main .edit-buttons a:after {
   color: #aaaaaa;
   text-decoration: none;
 }
+
+.calendar-block small {
+  color: #D0D0D0;
+}
+
+.calendar-block small code {
+  color: #D0D0D0;
+  background-color: #F8F8F8;
+}
+
+.calendar-block small a:hover {
+  text-decoration: none;
+}

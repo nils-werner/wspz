@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     'app': './js/main.js',
     'suggestion': './js/suggestion.js',
+    'calendar': './js/calendar.js',
     'styles': './scss/main.scss'
   },
   output: {
