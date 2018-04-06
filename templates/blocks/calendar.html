@@ -11,4 +11,5 @@
     <small>Du kannst z.B. mit <a href="?month={{ now() | strftime("%Y%m") }}"><code>?month={{ now() | strftime("%Y%m") }}</code></a> direkt auf einen Monat verlinken</small>
   </div>
 </div>
+<script src="{{ '/static/gen/calendar.js'|asseturl }}"></script>
 {% endblock %}

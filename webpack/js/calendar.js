@@ -16,7 +16,7 @@ $(document).ready(function () {
   if ($.urlParam('month') !== null) {
     $("iframe").attr(
       "src",
-      $("iframe").attr("src") + '&dates=' + $.urlParam('month') + '01/' + $.urlParam('month') + '30'
+      $("iframe").attr("src") + '&dates=' + $.urlParam('month') + '01/' + $.urlParam('month') + '28'
     );
   }
 })
