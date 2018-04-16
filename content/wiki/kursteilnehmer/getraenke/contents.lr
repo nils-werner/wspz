@@ -25,7 +25,12 @@ Andere Getränke, wie Wein, Gin, Whisky, Bowle, etc. können von den Kursteilneh
 | Orangenlimo   | Frucade Orangen-Limo       | 20x0,5 |
 | Wasser        | Brunnthaler Spritzig       | 20x0,5 |
 
-Bitte ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen.
+#### alert ####
+class: danger
+----
+text:
+
+Bitte ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen!
 
 ## Adressen
 
