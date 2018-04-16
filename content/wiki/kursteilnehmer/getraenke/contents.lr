@@ -32,6 +32,13 @@ text:
 
 Bitte ausschließlich die am Haus aushängenden Sorten und Flaschengrößen kaufen!
 
+#### alert ####
+class: danger
+----
+text:
+
+Vor Verlassen des Hauses nach dem Kurs die verbleibenden Getränke in einen der Kühlschränke räumen und diesen vom Segellehrer abschließen lassen!
+
 ## Adressen
 
 #### address ####
