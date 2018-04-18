@@ -8,7 +8,7 @@
         {{ render_breadcrumbs(this) }}
         {% if not this.readonly %}
         <div class="edit-buttons btn-group pull-right">
-          <a href="https://github.com/nils-werner/wspz/tree/master/content{{ this.path.split('@')[0] }}/contents.lr" class="btn btn-default btn-sm">
+          <a href="https://github.com/nils-werner/wspz/tree/master/content{{ this.path.split('@')[0] }}/contents.lr" class="btn btn-default btn-sm" target="github">
             <i class="fa fa-fw fa-pencil" aria-hidden="true"></i> bearbeiten
           </a>
           <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -22,7 +22,7 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/nils-werner/wspz/commits/master/content{{ this.path }}/contents.lr" class="btn-sm">
+              <a href="https://github.com/nils-werner/wspz/commits/master/content{{ this.path }}/contents.lr" class="btn-sm" target="github">
                 <i class="fa fa-fw fa-history" aria-hidden="true"></i> Historie ansehen
               </a>
             </li>
