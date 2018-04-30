@@ -7,21 +7,35 @@ text:
 
 Ein Entwurf für die Erst-Email an alle Kursteilnehmer
 
+#### alert ####
+class: danger
+----
+text:
+Bitte stelle sicher dass alle wichtigen Daten und Links gut sichtbar hervorgehoben sind, das Hochschulsport-Email-System erlaubt keine Text-Formatierung und macht Links nicht automatisch klickbar!
+
+
+#### text ####
+text:
+
 > Hey angehender Segler,
 >
 > super dass du dir ein so spannendes und vielseitiges Hobby ausgesucht hast!
 >
-> In zwei Wochen geht unser Grundkurs los! Du hast sicherlich schon einige Fragen, wie das ganze ablaufen wird. Um euch einen guten Start zu ermöglichen haben wir daher die **wichtigsten Infos für Kursteilnehmer** auf <https://www.wspz.de/wiki/kursteilnehmer/> zusammengetragen: Anfahrt, Packliste, Essensplanung, Kursablauf, etc.
+> In zwei Wochen geht unser Grundkurs los! Du hast sicherlich schon einige Fragen, wie das ganze ablaufen wird. Um euch einen guten Start zu ermöglichen haben wir daher die **wichtigsten Infos für Kursteilnehmer** auf
+>
+>> https://www.wspz.de/wiki/kursteilnehmer/
+>
+> zusammengetragen: Anfahrt, Packliste, Essensplanung, Kursablauf, etc.
 >
 > Damit wir uns alle ein bisschen kennen lernen können gibt es vor Grundkursen traditionell auch immer ein kleines **Vortreffen**. Bei dem Treffen werden wir zudem den Essensplan ausarbeiten und ich kann eure Fragen, die nicht im Internet beantwortet wurden, gleich klären.
 >
 > Ich habe dazu einen Tisch reserviert:
 >
-> `Datum, Zeit` im `Kneipe` auf "`Dein Name`"
+>> `Datum, Zeit` im `Kneipe` auf "`Dein Name`"
 >
 > Damit ihr schon jetzt **Fahrgemeinschaften** zum See planen könnt habe ich zudem ein Spreadsheet angelegt:
 >
-> `Google Spreadsheet Link`
+>> `Google Spreadsheet Link`
 >
 > Falls du ein Auto hast trag dich bitte mit Telefonnummer dort ein. Trage auch eventuell schon feststehende Mitfahrer (Mitbewohner, Freunde etc.) gleich mit ein.
 >
