@@ -280,3 +280,9 @@ main a.map:after, main .edit-buttons a:after {
 .calendar-block small a:hover {
   text-decoration: none;
 }
+
+@media print {
+  a#lektor-edit-link {
+    display: none;
+  }
+}
