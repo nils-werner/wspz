@@ -8,22 +8,26 @@ v2heu2o3kpvbqqf53hcrqh1dv0
 5vgdhsllpb03hol7nheo96tiek
 7rv02ebqm4oqkbueadluh07mt0
 bo41foqnpmtd5afv7qbt6at93g
+cql4mduegm0l850iie7jalm2oo
 ----
 colors:
 #28754E
 #711616
 #2952A3
 #4E5D6C
+#42104A
 
 #### text ####
 text:
 
 ### Legende
 
-<span style="background-color: #65AD89; color: #ffffff; border-radius: 3px; padding: 5px;">Events</span> Besucher sind gern gesehen, Ankündigung über Mailingliste, Anmeldung meist über Doodles
+<span style="background-color: #65AD89; color: #ffffff; border-radius: 3px; padding: 5px;">Events</span> Besucher sind gern gesehen, Ankündigung über [Mailingliste](https://lists.fau.de/cgi-bin/listinfo/sport-segeln) oder [Facebook](https://www.facebook.com/groups/209470149101598/), Anmeldung über Doodles
 
-<span style="background-color: #668CD9; color: #ffffff; border-radius: 3px; padding: 5px;">Kurse</span> Besucher sind gern gesehen, Anmeldung bei Segellehrer
+<span style="background-color: #668CD9; color: #ffffff; border-radius: 3px; padding: 5px;">Kurse</span> Besucher sind gern gesehen, Anmeldung bei Segellehrer (z.B. via [Mailingliste](https://lists.fau.de/cgi-bin/listinfo/sport-segeln))
 
 <span style="background-color: #AD2D2D; color: #ffffff; border-radius: 3px; padding: 5px;">Sperrungen</span> Haus kann nicht besucht werden
 
 <span style="background-color: #8997A5; color: #ffffff; border-radius: 3px; padding: 5px;">Externe Events</span> finden nicht am Brombachsee statt
+
+<span style="background-color: #9643A5; color: #ffffff; border-radius: 3px; padding: 5px;">Praktische Prüfungen</span> benötigen eine Voranmeldung beim Prüfer (z.B. via [Mailingliste](https://lists.fau.de/cgi-bin/listinfo/sport-segeln))
