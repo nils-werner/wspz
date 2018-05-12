@@ -14,6 +14,12 @@ lon: 10.920
 #### text ####
 text:
 
+| App              | Apple                                                                                    | Android                                                                                   |
+|------------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| DWD WarnWetter   | [WarnWetter](https://itunes.apple.com/de/app/warnwetter/id986420993?mt=8)                | [WarnWetter](https://play.google.com/store/apps/details?id=de.dwd.warnapp)                |
+| Windy            | [Windy](https://itunes.apple.com/de/app/windy-wind-and-waves-forecast/id1161387262?mt=8) | [Windy](https://play.google.com/store/apps/details?id=com.windyty.android)                |
+| Windfinder       | [Windfinder](https://itunes.apple.com/de/app/windfinder/id336829635?mt=8)                | [Windfinder](https://play.google.com/store/apps/details?id=com.studioeleven.windfinder)   |
+
 Die Wind- und Wettervorhersage kann auf [Windfinder](https://www.windfinder.com/forecast/brombachsee_mitteldamm) und [Windy](https://www.windy.com/49.130/10.920?49.130,10.920,7,m:e0Zagts) gefunden werden.
 
 Generell sind die folgenden Bedingungen gut fürs Segeln:
