@@ -286,3 +286,12 @@ main a.map:after, main .edit-buttons a:after {
     display: none;
   }
 }
+
+.rss-icon {
+  a:link, a:visited {
+    color: #CACACA;
+  }
+  a:hover, a:active {
+    color: #999999;
+  }
+}
