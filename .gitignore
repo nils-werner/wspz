@@ -4,6 +4,7 @@
 *.pxm
 .DS_Store
 webpack/node_modules
+webpack/yarn-error.log
 assets/static/gen
 build/
 webpack/package-lock.json
