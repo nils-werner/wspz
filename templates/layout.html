@@ -11,7 +11,7 @@
   <meta name="title" content="{% block title %}Wassersportzentrum der FAU{% endblock %}">
   <meta name="description" content="Inoffizielle Website des Wassersportzentrums der FAU">
   <meta name="keywords" content="Segeln, Unijolle, Hobie Cat 16, SUP, Brombachsee, Friedrich-Alexander-Universität Erlangen-Nürnberg, FAU, Wassersportzentrum, WSpZ">
-  <title>{% block title %}Willkommen{% endblock %} — Wassersportzentrum der FAU</title>
+  <title>{{ self.title() }} — Wassersportzentrum der FAU</title>
   {% block head %}{% endblock %}
 </head>
 <body class="{% block class %}{% endblock %}">
